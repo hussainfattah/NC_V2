@@ -38,6 +38,9 @@ import csv
 import random
 import os 
 
+import torch
+torch.cuda.empty_cache()
+
 root="../data"
 #link1 = root+'/atomic_train_data/1_all_training_data(pos,neg,annotated).csv'
 link2 = root+'/2_test_data.csv'
