@@ -1,7 +1,7 @@
-pip install datasets
-pip install transformers
+#pip install datasets
+#pip install transformers
 
-pip install -U negate
+#pip install -U negate
 from negate import Negator
 
 # Use default model (en_core_web_md):
@@ -37,26 +37,24 @@ import random
 
 root="/data"
 #link1 = root+'/atomic_train_data/1_all_training_data(pos,neg,annotated).csv'
-link2 = root+'/atomic_train_data/2_test_data.csv'
-link3 = root+'/atomic_train_data/1_annotated_data.csv'
-link4 = root+'/atomic_train_data/1_atomic.csv'
-link5 = root+'/atomic_train_data/1_anion_logical_neg.csv'
-link6 = root+'/atomic_train_data/1_anion_semi_logical_neg.csv'
+link2 = root+'/2_test_data.csv'
+link3 = root+'/1_annotated_data.csv'
+link4 = root+'/1_atomic.csv'
+link5 = root+'/1_anion_logical_neg.csv'
+link6 = root+'/1_anion_semi_logical_neg.csv'
 
 test_data = pd.read_csv(link2)
-print(len(test_data))
-
 annotated_data = pd.read_csv(link3)
-print(len(annotated_data))
-
 atomic_data = pd.read_csv(link4)
-print(len(atomic_data))
-
 anion_logical_neg_data_label_1 = pd.read_csv(link5)
-print(len(anion_logical_neg_data_label_1))
-
 anion_semi_logical_neg_data_label_1 = pd.read_csv(link6)
-print(len(anion_semi_logical_neg_data_label_1))
+
+with open('output.txt', 'w') as file:
+  print(len(test_data), file = file)
+  print(len(annotated_data), file = file)
+  print(len(atomic_data), file = file)
+  print(len(anion_logical_neg_data_label_1), file = file)
+  print(len(anion_semi_logical_neg_data_label_1), file = file)
 
 #for now
 link7 = root+'/atomic_train_data/2_atomic_data_minus.csv'
@@ -64,13 +62,13 @@ link8 = root+'/atomic_train_data/2_anion_logical_neg_data_minus.csv'
 link9 = root+'/atomic_train_data/2_anion_semi_logical_neg_data_minus.csv'
 
 atomic_data_minus = pd.read_csv(link7)
-print(len(atomic_data_minus))
-
 anion_logical_neg_data_minus = pd.read_csv(link8)
-print(len(anion_logical_neg_data_minus))
-
 anion_semi_logical_neg_data_minus = pd.read_csv(link9)
-print(len(anion_semi_logical_neg_data_minus))
+
+with open('output.txt', 'a') as file:
+  print(len(atomic_data_minus), file = file)
+  print(len(anion_logical_neg_data_minus), file = file)
+  print(len(anion_semi_logical_neg_data_minus), file = file)
 
 #concat all and make a new string
 def concat_all_by_sep_train(example):
@@ -551,11 +549,11 @@ for i in range(27):
     # process ATOMIC(+) + ATOMIC(-)
     atomic_data = atomic_data.sample(frac=1, random_state=42)  # Shuffle + Set a random_state for reproducibility
     atomic_data = atomic_data.head(5000) # For now, train with only 5000
-    print(atomic_data.head(15))
+    #print(atomic_data.head(15))
 
     atomic_data_minus = atomic_data_minus.sample(frac=1, random_state=42)
     atomic_data_minus = atomic_data_minus.head(5000)
-    print(atomic_data_minus.head(15))
+    #print(atomic_data_minus.head(15))
 
     train_data = pd.concat([atomic_data, atomic_data_minus], axis=0) #axis = 0 means row wise concatanation
   elif i == 23:
@@ -703,4 +701,6 @@ for i in range(27):
     preds.append(y)
   set(preds)
   actual = results[1].tolist()
-  print(classification_report(actual, preds))
+  
+  with open('output.txt', 'a') as file:
+    print(classification_report(actual, preds), file = file)
