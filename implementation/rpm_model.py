@@ -34,6 +34,7 @@ from transformers import EarlyStoppingCallback
 import json
 import csv
 import random
+import os 
 
 root="/data"
 #link1 = root+'/atomic_train_data/1_all_training_data(pos,neg,annotated).csv'
@@ -701,6 +702,10 @@ for i in range(27):
     preds.append(y)
   set(preds)
   actual = results[1].tolist()
-  
+
   with open('output.txt', 'a') as file:
     print(classification_report(actual, preds), file = file)
+
+os.system("git add .")
+os.system("git commit -m message")
+os.system("git push")
