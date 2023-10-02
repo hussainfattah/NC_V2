@@ -60,9 +60,9 @@ with open('output.txt', 'w') as file:
   print(len(anion_semi_logical_neg_data_label_1), file = file)
 
 #for now
-link7 = root+'/atomic_train_data/2_atomic_data_minus.csv'
-link8 = root+'/atomic_train_data/2_anion_logical_neg_data_minus.csv'
-link9 = root+'/atomic_train_data/2_anion_semi_logical_neg_data_minus.csv'
+link7 = root+'/2_atomic_data_minus.csv'
+link8 = root+'/2_anion_logical_neg_data_minus.csv'
+link9 = root+'/2_anion_semi_logical_neg_data_minus.csv'
 
 atomic_data_minus = pd.read_csv(link7)
 anion_logical_neg_data_minus = pd.read_csv(link8)
