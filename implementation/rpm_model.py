@@ -38,7 +38,7 @@ import csv
 import random
 import os 
 
-root="/data"
+root="../data"
 #link1 = root+'/atomic_train_data/1_all_training_data(pos,neg,annotated).csv'
 link2 = root+'/2_test_data.csv'
 link3 = root+'/1_annotated_data.csv'
