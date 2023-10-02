@@ -4,6 +4,7 @@
 #pip install -U negate
 from negate import Negator
 
+'''
 # Use default model (en_core_web_md):
 negator = Negator()
 
@@ -17,6 +18,7 @@ sentence = "PersonX puts this ___ into practice"
 #sentence = "fun"
 #negated_sentence = negator.negate_sentence(sentence)
 #print(negated_sentence)  # "An apple a day, doesn't keep the doctor away."
+'''
 
 from datasets import Dataset, DatasetDict
 import pandas as pd
