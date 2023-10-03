@@ -1,0 +1,18 @@
+300
+1188
+14961
+11251
+11851
+15000
+15000
+15000
+Dataset: annotated data
+              precision    recall  f1-score   support
+
+           0       0.65      0.35      0.46        80
+           1       0.80      0.93      0.86       220
+
+    accuracy                           0.78       300
+   macro avg       0.72      0.64      0.66       300
+weighted avg       0.76      0.78      0.75       300
+
