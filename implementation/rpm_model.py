@@ -246,10 +246,11 @@ for i in range(27):
   anion_semi_logical_neg_data_minus = pd.read_csv(link9)
 
   if i == 0:
-    print("Dataset: annotated data")
+    with open('output.txt', 'a') as file:
+      print("Dataset: annotated data"), file = file)
     # process annotated data
     train_data = annotated_data
-    continue
+    #continue
   elif i == 1:
     # process annotated data + ATOMIC(+)
     atomic_data = atomic_data.sample(frac=1, random_state=42)  # Shuffle + Set a random_state for reproducibility
@@ -550,6 +551,7 @@ for i in range(27):
 
     print("Dataset: ANION_Logical_Neg(-) + ANION_Semi_Logical_Neg(-)")
   elif i == 22:
+    continue
     print("Dataset: ATOMIC(+) + ATOMIC(-)")
     #continue
     # process ATOMIC(+) + ATOMIC(-)
@@ -710,6 +712,9 @@ for i in range(27):
 
   with open('output.txt', 'a') as file:
     print(classification_report(actual, preds), file = file)
+  os.system("git add .")
+  os.system("git commit -m message")
+  os.system("git push")
 
 os.system("git add .")
 os.system("git commit -m message")
