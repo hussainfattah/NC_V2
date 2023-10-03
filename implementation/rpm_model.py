@@ -247,7 +247,7 @@ for i in range(27):
 
   if i == 0:
     with open('output.txt', 'a') as file:
-      print("Dataset: annotated data"), file = file)
+      print("Dataset: annotated data", file = file)
     # process annotated data
     train_data = annotated_data
     #continue
