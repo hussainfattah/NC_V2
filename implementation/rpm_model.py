@@ -307,8 +307,10 @@ for i in range(27):
       print("Dataset: annotated data + anion_logical_neg(+) + anion_semi_logical_neg(+)", file = file)
   elif i == 5:
     continue
-      '''
-      continue
+
+    atomic_data_minus = atomic_data_minus.sample(frac=1, random_state=42)
+    atomic_data_minus = atomic_data_minus.head(train_size)
+    '''
       atomic_data = atomic_data.sample(frac=1, random_state=42)  # Shuffle + Set a random_state for reproducibility
       atomic_data = atomic_data.head(5000) # For now, train with only 5000
 
@@ -329,10 +331,7 @@ for i in range(27):
 
       # Save the DataFrame to a CSV file
       atomic_data_minus.to_csv(file_path, index=False)
-      '''
-
-    atomic_data_minus = atomic_data_minus.sample(frac=1, random_state=42)
-    atomic_data_minus = atomic_data_minus.head(train_size)
+    '''
 
     train_data = pd.concat([annotated_data, atomic_data_minus], axis=0) #axis = 0 means row wise concatanation
     
@@ -340,7 +339,10 @@ for i in range(27):
       print("Dataset: annotated data + ATOMIC(-)", file = file)
   elif i == 6:
     continue
-      '''
+
+    anion_logical_neg_data_minus = anion_logical_neg_data_minus.sample(frac=1, random_state=42)
+    anion_logical_neg_data_minus = anion_logical_neg_data_minus.head(train_size)
+    '''
       continue
       # process annotated data + ANION_Logical_Neg(-)
       anion_logical_neg_data_label_1 = anion_logical_neg_data_label_1.sample(frac=1, random_state=42)  # Shuffle + Set a random_state for reproducibility
@@ -362,10 +364,7 @@ for i in range(27):
 
       # Save the DataFrame to a CSV file
       anion_logical_neg_data_minus.to_csv(file_path, index=False)
-      '''
-
-    anion_logical_neg_data_minus = anion_logical_neg_data_minus.sample(frac=1, random_state=42)
-    anion_logical_neg_data_minus = anion_logical_neg_data_minus.head(train_size)
+    '''
 
     train_data = pd.concat([annotated_data, anion_logical_neg_data_minus], axis=0) #axis = 0 means row wise concatanation
 
@@ -373,6 +372,9 @@ for i in range(27):
       print("Dataset: annotated data + ANION_Logical_Neg(-)", file = file)
   elif i == 7:
     continue
+
+    anion_semi_logical_neg_data_minus = anion_semi_logical_neg_data_minus.sample(frac=1, random_state=42)
+    anion_semi_logical_neg_data_minus = anion_semi_logical_neg_data_minus.head(train_size)
     '''
     #continue
     # process annotated data + ANION_Semi_Logical_Neg(-)
@@ -396,9 +398,6 @@ for i in range(27):
     # Save the DataFrame to a CSV file
     anion_semi_logical_neg_data_minus.to_csv(file_path, index=False)
     '''
-
-    anion_semi_logical_neg_data_minus = anion_semi_logical_neg_data_minus.sample(frac=1, random_state=42)
-    anion_semi_logical_neg_data_minus = anion_semi_logical_neg_data_minus.head(train_size)
 
     train_data = pd.concat([annotated_data, anion_semi_logical_neg_data_minus], axis=0) #axis = 0 means row wise concatanation
 
