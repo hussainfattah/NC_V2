@@ -1,5 +1,7 @@
 #pip install datasets
 #pip install transformers
+#pip install scikit-learn
+#pip install scipy
 
 #pip install -U negate
 #from negate import Negator
