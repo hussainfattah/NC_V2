@@ -1,0 +1,1489 @@
+p,q,r,output
+PersonX applies for jobs,don't gain financial security,xWant,0
+PersonX holds PersonY's attention,Don't pay attention to the goal,xWant,1
+PersonX helps another ___,not grateful,oReact,1
+PersonX looks PersonY's way,wondering,xAttr,1
+PersonX helps another ___,Don't pay it forward,oEffect,1
+PersonX reduces the ___ to levels,don't teach everyone the benefit of low levels,xWant,1
+PersonX doesn't take PersonY's outside,Person Y doesn't accuse them of stealing.,xEffect,1
+PersonX does not go ___ after work,don't do something,xIntent,1
+PersonX helps another ___,to help,xIntent,1
+PersonX reduces the ___ to levels,happy about his success,xReact,1
+PersonX is walking across the street,gets hit by a car,xEffect,1
+PersonX is not walking across the street,don't look both ways,xNeed,1
+PersonX does not help another ___,Don't smile.,xEffect,1
+PersonX doesn't create the ___ in days,Doesn't fall asleep,xEffect,1
+PersonX does not help another ___,don't be kind,xIntent,1
+PersonX helps another ___,offer help,xNeed,1
+PersonX practices all day,sleeps like a baby,xEffect,1
+PersonX doesn't take PersonY's outside,not fun,xReact,1
+PersonX learns how to bake a cake,She takes it to their birthday.,xWant,1
+PersonX doesn't take PersonY's outside,don't help y get air,xIntent,1
+PersonX does not get everything PersonY needed,don't be helpful,xIntent,0
+PersonX reduces the ___ to levels,to protect the environment,xWant,1
+PersonX goes ___ after work,Doesn't get tired,xEffect,1
+PersonX makes ___ the other day,ignored,xEffect,0
+PersonX doesn't hold PersonY's attention,don't entertain,xIntent,1
+PersonX exchanges numbers,to like someone,xNeed,1
+PersonX helps another ___,Don't accept assistance,oEffect,0
+PersonX does not look PersonY's way,don't say hello,xWant,1
+PersonX makes ___ the other day,to get all material for what they want to make,xNeed,1
+PersonX holds PersonY's attention,work on communication skills,oEffect,1
+PersonX looks PersonY's way,not happy,xReact,0
+PersonX doesn't smell something,Doesn't reflect something different is taking in place,xEffect,0
+PersonX does not look PersonY's way,don't see person walk in,xIntent,0
+PersonX does not reduce the ___ to levels,Isn't commended for his efforts,xEffect,0
+PersonX doesn't practice all day,not diligent,xAttr,1
+PersonX is walking across the street,cautious,xAttr,1
+PersonX does not get everything PersonY needed,don't thank personX,oWant,1
+PersonX smells something,don't tell his wife that the cake is burned.,xWant,0
+PersonX cleans PersonY's bedroom,to be paid,xWant,1
+PersonX gets the stain,not washing clothes,xEffect,0
+PersonX is not walking across the street,Doesn't keep walking,xEffect,0
+PersonX looks PersonY's way,seeing,xAttr,1
+PersonX helps another ___,aids,xEffect,1
+PersonX applies for jobs,eager,xAttr,1
+PersonX holds PersonY's attention,don't control him,xWant,1
+PersonX practices all day,constant,xAttr,1
+PersonX cuts swathes,don't show craftsmanship,xWant,1
+PersonX does not clean PersonY's bedroom,not nice,xAttr,0
+PersonX is not walking across the street,don't look right then left and right again,xNeed,1
+PersonX goes ___ after work,good,xReact,1
+PersonX helps another ___,pay it forward,oEffect,1
+PersonX does not go ___ after work,don't get stuff done,xIntent,0
+PersonX learns how to bake a cake,not Accomplished,xReact,1
+PersonX cleans PersonY's bedroom,not helpful,xReact,0
+PersonX is walking across the street,doesn't get hit by a car,xEffect,1
+PersonX cuts swathes,needs scissors,xNeed,1
+PersonX doesn't take PersonY's outside,not exhausted,xReact,1
+PersonX holds PersonY's attention,to attract him,xWant,1
+PersonX did not cut swathes,Doesn't get sweaty,xEffect,1
+PersonX doesn't smell something,don't decide conclude,xWant,0
+PersonX didn't make ___ the other day,not busy,xAttr,0
+PersonX smells something,not confused,xReact,1
+PersonX cuts swathes,to be helpful,xIntent,1
+PersonX cleans PersonY's bedroom,helpful,xAttr,1
+PersonX does not clean PersonY's bedroom,not helpful,xAttr,0
+PersonX is walking across the street,PersonX stays in the crosswalk,xEffect,1
+PersonX doesn't take PersonY's outside,don't pick up something,xNeed,1
+PersonX makes ___ the other day,Pours it in her cup.,xNeed,1
+PersonX is not walking across the street,don't check if the light for crossing is green,xNeed,1
+PersonX holds PersonY's attention,to serve him,oWant,1
+PersonX cleans PersonY's bedroom,to make the bed,xNeed,1
+PersonX does not clean PersonY's bedroom,Doesn't look for their items,oEffect,1
+PersonX looks PersonY's way,don't look away,xWant,1
+PersonX does not clean PersonY's bedroom,doesn't hug X,oEffect,0
+PersonX cuts swathes,hardworking,xAttr,1
+PersonX doesn't take PersonY's outside,not Motivated,xAttr,1
+PersonX does not apply for jobs,don't decide where to apply.,xNeed,1
+PersonX applies for jobs,not rejected,xReact,1
+PersonX didn't make ___ the other day,Doesn't tell him her favorite recipe.,oWant,1
+PersonX doesn't take PersonY's outside,don't approach PersonY,xNeed,0
+PersonX applies for jobs,gets hired,xEffect,1
+PersonX cleans PersonY's bedroom,to be helpful,xIntent,1
+PersonX learns how to bake a cake,ambitious,xAttr,1
+PersonX is walking across the street,don't walk their dog around the neighborhood,xWant,1
+PersonX looks PersonY's way,to greet PersonX,oWant,1
+PersonX looks PersonY's way,interested,xAttr,1
+PersonX does not clean PersonY's bedroom,don't clean other areas of the house,xWant,1
+PersonX practices all day,Doesn't become an expert,xEffect,0
+PersonX does not run for class president,Voters don't allow PersonX to be elected,oEffect,0
+PersonX does not get everything PersonY needed,not one deffied,xEffect,0
+PersonX exchanges numbers,wild,xAttr,0
+PersonX reduces the ___ to levels,industrious,xAttr,1
+PersonX doesn't smell something,don't turn off the oven.,xWant,1
+PersonX does not exchange numbers,don't make money of someone,xWant,1
+PersonX makes ___ the other day,cringes at noise,xEffect,1
+PersonX cleans PersonY's bedroom,Isn't surprised,oEffect,1
+PersonX does not apply for jobs,not rejected,xReact,0
+PersonX takes PersonY's outside,gets fresh air,xEffect,1
+PersonX doesn't take PersonY's outside,don't have fun,xIntent,0
+PersonX practices all day,to get their ball,xNeed,1
+PersonX doesn't take PersonY's outside,don't chide PersonX,oWant,1
+PersonX does not help another ___,not aids,xEffect,1
+PersonX does not exchange numbers,not breathing,xEffect,0
+PersonX cleans PersonY's bedroom,take a nap,xWant,1
+PersonX holds PersonY's attention,no attention,xWant,0
+PersonX did not cut swathes,Doesn't need scissors,xNeed,1
+PersonX cleans PersonY's bedroom,thankful,oReact,1
+PersonX reduces the ___ to levels,to save the earth,xWant,1
+PersonX does not clean PersonY's bedroom,Doesn't rearrange their room,oEffect,1
+PersonX finally got up,Doesn't go walking,xEffect,1
+PersonX is walking across the street,to press the walk button,xNeed,1
+PersonX does not look PersonY's way,not happy,xReact,0
+PersonX smells something,to turn off the oven.,xWant,1
+PersonX gets everything PersonY needed,person x uses everything,xEffect,1
+PersonX is walking across the street,to check if the light for crossing is green,xNeed,1
+PersonX does not clean PersonY's bedroom,don't rest,xWant,0
+PersonX holds PersonY's attention,accomplished,xReact,1
+PersonX runs for class president,Don't make poster,xWant,1
+PersonX cleans PersonY's bedroom,doesn't hug X,oEffect,1
+PersonX doesn't practice all day,don't win the competition,xWant,1
+PersonX exchanges numbers,fair in skin,xEffect,0
+PersonX did not cut swathes,don't be helpful,xIntent,1
+PersonX takes PersonY's outside,not eager,xReact,0
+PersonX doesn't smell something,don't tell his wife that the cake is burned.,xWant,1
+PersonX looks PersonY's way,catches Person Y's stare,xEffect,1
+PersonX didn't learn how to bake a cake,don't eat,xIntent,1
+PersonX does not get everything PersonY needed,don't accept the items,oWant,1
+PersonX did not cut swathes,Doesn't need something sharp,xNeed,1
+PersonX didn't learn how to bake a cake,don't bake cakes to sell,xWant,0
+PersonX takes PersonY's outside,fun,oReact,1
+PersonX is not walking across the street,Like there aren't closer to where they are going,xReact,1
+PersonX cleans PersonY's bedroom,to reciprocate,oWant,1
+PersonX does not get everything PersonY needed,not loved,oReact,1
+PersonX cleans PersonY's bedroom,gets tired out,xEffect,1
+PersonX gets everything PersonY needed,capable,xAttr,1
+PersonX practices all day,take part in the contest,xWant,1
+PersonX gets everything PersonY needed,overwhelmed,oReact,1
+PersonX did not finally get up,not awake,xAttr,1
+PersonX practices all day,Doesn't learn something new,xEffect,1
+PersonX cleans PersonY's bedroom,caring,xAttr,1
+PersonX does not go ___ after work,don't enjoy it,xWant,1
+PersonX gets everything PersonY needed,another joint,xEffect,0
+PersonX does not go ___ after work,not active,xAttr,1
+PersonX applies for jobs,doesn't get rejected from a job.,xEffect,1
+PersonX smells something,to thank PersonX for noticing.,oWant,1
+PersonX doesn't hold PersonY's attention,don't work on communication skills,oEffect,1
+PersonX makes ___ the other day,don't wear what they made,xWant,1
+PersonX cleans PersonY's bedroom,don't rest,xWant,1
+PersonX creates the ___ in days,becomes tired,xEffect,1
+PersonX practices all day,Doesn't improve their skiil,xEffect,0
+PersonX is walking across the street,to walk on the curb,xWant,1
+PersonX makes ___ the other day,not creative,xReact,0
+PersonX doesn't take PersonY's outside,Person Y doesn't follow them.,xEffect,0
+PersonX reduces the ___ to levels,to know the minimum levels,xNeed,1
+PersonX doesn't hold PersonY's attention,not interesting,xAttr,1
+PersonX runs for class president,campaigning,xAttr,1
+PersonX gets the stain,get detergent,xWant,1
+PersonX exchanges numbers,to keep the phone number,oWant,1
+PersonX exchanges numbers,to find out more,oWant,1
+PersonX doesn't get the stain,not washing clothes,xEffect,1
+PersonX does not go ___ after work,don't sleep,xWant,0
+PersonX didn't learn how to bake a cake,not creative,xAttr,0
+PersonX runs for class president,Make speech,xWant,1
+PersonX does not run for class president,not Canvass,oWant,0
+PersonX does not clean PersonY's bedroom,not to be paid,xWant,1
+PersonX doesn't create the ___ in days,not diligent,xAttr,1
+PersonX does not exchange numbers,not a girlfriend,xIntent,0
+PersonX goes ___ after work,to sleep,xWant,1
+PersonX looks PersonY's way,notices Person X,oEffect,1
+PersonX gets the stain,smeared,xAttr,1
+PersonX goes ___ after work,fun,xAttr,1
+PersonX finally got up,awake,xAttr,1
+PersonX reduces the ___ to levels,smart,xAttr,1
+PersonX does not apply for jobs,not pessimistic,xReact,1
+PersonX does not get everything PersonY needed,person x doesn't thank person y.,xEffect,0
+PersonX takes PersonY's outside,helpful,xAttr,1
+PersonX runs for class president,happy,xReact,1
+PersonX does not go ___ after work,Doesn't get relaxed,xEffect,0
+PersonX goes ___ after work,To walk there,xNeed,1
+PersonX runs for class president,Voters don't think about PersonX,oEffect,1
+PersonX helps another ___,offer thanks,oEffect,1
+PersonX does not look PersonY's way,don't look away,xWant,0
+PersonX didn't learn how to bake a cake,not like a chef,xReact,0
+PersonX practices all day,Don't win a game,xWant,0
+PersonX reduces the ___ to levels,to encourage him,oWant,1
+PersonX holds PersonY's attention,not interested,oReact,0
+PersonX exchanges numbers,to keep in touch,xWant,1
+PersonX doesn't get the stain,don't clean up the stain,xWant,0
+PersonX runs for class president,Isn't supported by his friends,xEffect,1
+PersonX doesn't smell something,not Grossed out,xAttr,1
+PersonX helps another ___,see a person in need,xNeed,1
+PersonX is walking across the street,don't walk on the curb,xWant,1
+PersonX looks PersonY's way,to see person walk in,xIntent,1
+PersonX cuts swathes,gets sweaty,xEffect,1
+PersonX is walking across the street,PersonX doesn't stay in the crosswalk,xEffect,1
+PersonX is not walking across the street,not cautious,xAttr,0
+PersonX cuts swathes,Don't clean up mess,xWant,0
+PersonX didn't learn how to bake a cake,Don't make a mess in the kitchen,xEffect,1
+PersonX gets the stain,Don't get detergent,xWant,0
+PersonX creates the ___ in days,To work with dedication,xNeed,1
+PersonX does not go ___ after work,don't get another job,xWant,1
+PersonX doesn't take PersonY's outside,don't feel cold inside,xNeed,1
+PersonX is walking across the street,put on shoes,xNeed,1
+PersonX does not help another ___,not supportive,xReact,1
+PersonX doesn't smell something,don't thank PersonX for noticing.,oWant,0
+PersonX did not cut swathes,don't keep safe,oWant,0
+PersonX helps another ___,write it up,xWant,1
+PersonX does not help another ___,not sympathetic,xAttr,1
+PersonX didn't make ___ the other day,not helpful,xAttr,0
+PersonX didn't learn how to bake a cake,Doesn't use energy to utilize oven,xEffect,0
+PersonX holds PersonY's attention,pay attention to the goal,xWant,1
+PersonX goes ___ after work,Gets tired,xEffect,1
+PersonX cuts swathes,grateful,oReact,1
+PersonX looks PersonY's way,not satisfied,xReact,0
+PersonX does not apply for jobs,Doesn't get a new job,xEffect,1
+PersonX takes PersonY's outside,playful,xAttr,1
+PersonX takes PersonY's outside,to play baseball,xIntent,0
+PersonX is not walking across the street,don't catch a bus.,xIntent,1
+PersonX doesn't hold PersonY's attention,don't serve him,oWant,1
+PersonX helps another ___,Don't smile.,xEffect,0
+PersonX doesn't smell something,Don't be near a smell,xNeed,0
+PersonX does not apply for jobs,don't make money,xWant,0
+PersonX gets the stain,Isn't mocked by others,xEffect,1
+PersonX practices all day,Don't take part in the contest,xWant,1
+PersonX goes ___ after work,Doesn't get energetic,xEffect,0
+PersonX is walking across the street,Don't buy groceries,xWant,1
+PersonX does not run for class president,not campaigning,xAttr,1
+PersonX does not clean PersonY's bedroom,don't show care for persony,xIntent,1
+PersonX applies for jobs,gets an interview,xEffect,1
+PersonX cleans PersonY's bedroom,not grateful,oReact,0
+PersonX is walking across the street,to walk their dog around the neighborhood,xWant,1
+PersonX exchanges numbers,not Informed,oReact,0
+PersonX does not help another ___,Don't go to store,xNeed,0
+PersonX does not help another ___,don't thank person x,oWant,1
+PersonX did not cut swathes,don't dispose of,xWant,1
+PersonX does not run for class president,not Vote,oWant,0
+PersonX doesn't hold PersonY's attention,no attention,xWant,0
+PersonX helps another ___,practice charity,xWant,1
+PersonX did not finally get up,Was not written up in the job.,xEffect,1
+PersonX doesn't practice all day,not persistant,xAttr,1
+PersonX did not finally get up,didn't miss appointment,xEffect,0
+PersonX runs for class president,Canvass,oWant,1
+PersonX gets everything PersonY needed,PersonX doesn't meet PersonY's needs,xEffect,0
+PersonX applies for jobs,to make money,xWant,1
+PersonX does not clean PersonY's bedroom,not Nice,xAttr,0
+PersonX holds PersonY's attention,don't AVODI IT,oEffect,0
+PersonX learns how to bake a cake,to bake cakes to sell,xWant,1
+PersonX practices all day,take the ball,xNeed,1
+PersonX goes ___ after work,don't get another job,xWant,1
+PersonX does not reduce the ___ to levels,don't improve further,xWant,0
+PersonX creates the ___ in days,To wrap up,xWant,1
+PersonX doesn't practice all day,Doesn't sleep like a baby,xEffect,1
+PersonX does not clean PersonY's bedroom,Doesn't get tired out,xEffect,1
+PersonX didn't learn how to bake a cake,don't mix batter,xWant,0
+PersonX looks PersonY's way,to say hello,oWant,1
+PersonX looks PersonY's way,curious,xReact,1
+PersonX doesn't practice all day,Doesn't improve their skiil,xEffect,1
+PersonX goes ___ after work,Gets relaxed,xEffect,1
+PersonX runs for class president,to feel important,xIntent,1
+PersonX is walking across the street,to go into the gas station market,xWant,1
+PersonX learns how to bake a cake,She gets the products.,xNeed,1
+PersonX does not clean PersonY's bedroom,don't thank PersonX,oWant,0
+PersonX practices all day,to get better,xWant,1
+PersonX does not clean PersonY's bedroom,Don't say thank you,oWant,0
+PersonX takes PersonY's outside,to have fun,xIntent,1
+PersonX practices all day,diligent,xAttr,1
+PersonX practices all day,not impressed,oReact,0
+PersonX goes ___ after work,not tired,xReact,1
+PersonX smells something,doesn't light a candle,xEffect,1
+PersonX gets the stain,not wash clothes,xWant,0
+PersonX is walking across the street,to catch a bus.,xIntent,1
+PersonX does not look PersonY's way,Doesn't recognize Person Y,xEffect,0
+PersonX creates the ___ in days,To be consistent,xNeed,1
+PersonX applies for jobs,not weary,xReact,1
+PersonX does not reduce the ___ to levels,haven't studied the different levels,xNeed,1
+PersonX creates the ___ in days,effect,xEffect,1
+PersonX practices all day,to be good at it,xIntent,1
+PersonX didn't learn how to bake a cake,She doesn't take it to their birthday.,xWant,0
+PersonX does not help another ___,don't aid everyone,xIntent,1
+PersonX learns how to bake a cake,Uses energy to utilize oven,xEffect,1
+PersonX does not apply for jobs,Don't turn on the computer,xNeed,1
+PersonX takes PersonY's outside,not excited,xReact,0
+PersonX gets everything PersonY needed,not tired,xReact,1
+PersonX applies for jobs,doesn't get hired,xEffect,1
+PersonX exchanges numbers,sociable,xAttr,1
+PersonX applies for jobs,She makes $1 million/year.,xEffect,1
+PersonX applies for jobs,not hopeless,xReact,1
+PersonX doesn't practice all day,don't be the best,xIntent,1
+PersonX does not reduce the ___ to levels,Don't make sacrifices,xNeed,1
+PersonX does not apply for jobs,don't go to work,xWant,0
+PersonX applies for jobs,write a CV,xNeed,1
+PersonX looks PersonY's way,satisfied,xReact,1
+PersonX does not reduce the ___ to levels,don't encourage him,oWant,1
+PersonX does not help another ___,don't practice charity,xWant,1
+PersonX applies for jobs,to fill forms,xNeed,1
+PersonX reduces the ___ to levels,gets elected,xEffect,1
+PersonX goes ___ after work,don't enjoy it,xWant,0
+PersonX goes ___ after work,To enjoy it,xWant,1
+PersonX applies for jobs,unemployed,xAttr,1
+PersonX practices all day,not exhausted,xReact,1
+PersonX practices all day,Improves their skiil,xEffect,1
+PersonX cleans PersonY's bedroom,to clean other areas of the house,xWant,1
+PersonX runs for class president,Isn't despised by hs enemies,xEffect,1
+PersonX does not apply for jobs,don't have his own apartment.,xIntent,0
+PersonX doesn't create the ___ in days,don't wrap up,xWant,1
+PersonX applies for jobs,She gets a job as manager.,xEffect,1
+PersonX does not run for class president,Don't see who wins,xWant,1
+PersonX doesn't get the stain,not sloppy,xAttr,1
+PersonX didn't make ___ the other day,don't buy ingredients,xNeed,1
+PersonX did not cut swathes,not violent,xAttr,0
+PersonX does not get everything PersonY needed,don't go shopping,xNeed,1
+PersonX practices all day,Is inspired to practice more,oEffect,1
+PersonX doesn't create the ___ in days,Don't name things,xWant,1
+PersonX does not look PersonY's way,not Surprised to see x,oReact,0
+PersonX creates the ___ in days,hurried,xReact,1
+PersonX takes PersonY's outside,to spend time outside,xWant,1
+PersonX gets everything PersonY needed,to rest,xWant,1
+PersonX cuts swathes,gets exercise,xEffect,1
+PersonX cuts swathes,to dispose of,xWant,1
+PersonX does not go ___ after work,not good,xReact,1
+PersonX holds PersonY's attention,to control him,xWant,1
+PersonX does not reduce the ___ to levels,not breaking down,xAttr,0
+PersonX creates the ___ in days,don't finish the work,xWant,0
+PersonX does not run for class president,not political,xAttr,1
+PersonX makes ___ the other day,Doesn't hear noise,xEffect,0
+PersonX didn't learn how to bake a cake,not Accomplished,xReact,1
+PersonX exchanges numbers,warm,xAttr,1
+PersonX does not look PersonY's way,not wondering,xAttr,1
+PersonX runs for class president,Make poster,xWant,1
+PersonX didn't learn how to bake a cake,not satiated,oReact,1
+PersonX does not run for class president,Don't apply to run,xNeed,1
+PersonX does not clean PersonY's bedroom,not good.,xReact,0
+PersonX reduces the ___ to levels,don't keep the levels low always,xWant,1
+PersonX is not walking across the street,not content,xAttr,0
+PersonX practices all day,to be the best,xIntent,1
+PersonX cuts swathes,not happy,xReact,1
+PersonX is walking across the street,gets a ticket for jwalking,xEffect,1
+PersonX does not clean PersonY's bedroom,Doesn't get some windex,xEffect,1
+PersonX is walking across the street,keeps walking,xEffect,1
+PersonX doesn't take PersonY's outside,not playful,xAttr,1
+PersonX does not get everything PersonY needed,not helpful and useful,xReact,1
+PersonX learns how to bake a cake,to go to culinary school,xNeed,1
+PersonX practices all day,learns something new,xEffect,1
+PersonX helps another ___,accept assistance,oEffect,1
+PersonX practices all day,impressive,xAttr,1
+PersonX does not get everything PersonY needed,don't ask PersonY what is needed,xNeed,1
+PersonX doesn't practice all day,Don't take part in the contest,xWant,1
+PersonX goes ___ after work,to do something,xIntent,1
+PersonX learns how to bake a cake,Doesn't gain life skill,xEffect,0
+PersonX practices all day,not ready,xReact,1
+PersonX doesn't practice all day,Isn't inspired to practice more,oEffect,1
+PersonX helps another ___,assists,xEffect,1
+PersonX finally got up,great,xAttr,0
+PersonX helps another ___,get what they need.,oEffect,1
+PersonX takes PersonY's outside,to play outside,xWant,1
+PersonX doesn't hold PersonY's attention,Don't hold attention by saying or doing somethine,xNeed,1
+PersonX takes PersonY's outside,Person Y doesn't accuse them of stealing.,xEffect,1
+PersonX exchanges numbers,don't be social,xWant,0
+PersonX doesn't create the ___ in days,not skillful,xAttr,1
+PersonX reduces the ___ to levels,doesn't get elected,xEffect,1
+PersonX does not clean PersonY's bedroom,don't make the bed,xNeed,1
+PersonX doesn't smell something,don't know the real fact of things,xWant,0
+PersonX creates the ___ in days,Body doesn't tremble,xEffect,1
+PersonX is walking across the street,like there are closer to where they are going,xReact,1
+PersonX does not go ___ after work,not tired,xReact,1
+PersonX does not look PersonY's way,don't spot PersonY,xNeed,0
+PersonX learns how to bake a cake,Sweet tooth,xAttr,1
+PersonX does not clean PersonY's bedroom,don't be helpful.,xIntent,1
+PersonX is not walking across the street,don't go into the gas station market,xWant,1
+PersonX doesn't create the ___ in days,not dominant,xAttr,0
+PersonX practices all day,Isn't inspired to practice more,oEffect,1
+PersonX is not walking across the street,not neutral.,xReact,1
+PersonX cleans PersonY's bedroom,doesn't get thanked,xEffect,0
+PersonX does not reduce the ___ to levels,don't keep the levels low always,xWant,0
+PersonX is walking across the street,Doesn't keep walking,xEffect,1
+PersonX does not clean PersonY's bedroom,don't have a clean room,oWant,1
+PersonX finally got up,lazy,xAttr,1
+PersonX holds PersonY's attention,Don't learn something new,oEffect,1
+PersonX looks PersonY's way,to turn his/her head,xNeed,1
+PersonX creates the ___ in days,not hurried,xReact,1
+PersonX does not run for class president,not hopeful,xAttr,0
+PersonX cuts swathes,to keep safe,oWant,0
+PersonX did not finally get up,don't go somwhere,xIntent,1
+PersonX helps another ___,check the results,xWant,1
+PersonX doesn't create the ___ in days,not hurried,xReact,1
+PersonX holds PersonY's attention,interesting,xAttr,1
+PersonX does not help another ___,Don't accept assistance,oEffect,0
+PersonX does not get everything PersonY needed,don't get some rest,xWant,1
+PersonX creates the ___ in days,not sleep,xWant,1
+PersonX is walking across the street,to say hi to their friend,xWant,1
+PersonX doesn't hold PersonY's attention,not influential,xAttr,1
+PersonX does not clean PersonY's bedroom,Doesn't make the bed,xEffect,1
+PersonX takes PersonY's outside,to relieve stress,xIntent,1
+PersonX gets the stain,irresponsible,xAttr,1
+PersonX finally got up,not obligated,xReact,1
+PersonX cleans PersonY's bedroom,Doesn't feel indebted,oEffect,0
+PersonX doesn't hold PersonY's attention,don't attract him,xWant,0
+PersonX exchanges numbers,flirty,xAttr,1
+PersonX finally got up,gets moving,xEffect,1
+PersonX does not exchange numbers,not Informed,oReact,0
+PersonX helps another ___,Don't get what they need.,oEffect,1
+PersonX doesn't practice all day,Doesn't become an expert,xEffect,1
+PersonX cuts swathes,Doesn't get exercise,xEffect,0
+PersonX doesn't get the stain,don't fall,xNeed,1
+PersonX cuts swathes,to show craftsmanship,xWant,1
+PersonX creates the ___ in days,Don't take notes,xWant,1
+PersonX practices all day,not astonished,oReact,1
+PersonX goes ___ after work,to unwind,xIntent,1
+PersonX doesn't practice all day,not impressive,xAttr,1
+PersonX cleans PersonY's bedroom,to be nice,xIntent,1
+PersonX did not cut swathes,not happy,xReact,0
+PersonX goes ___ after work,adventurous,xAttr,1
+PersonX didn't make ___ the other day,not assertive,xAttr,0
+PersonX does not exchange numbers,not fair in skin,xEffect,0
+PersonX cleans PersonY's bedroom,not happy,oReact,1
+PersonX did not cut swathes,don't do damage,xWant,1
+PersonX looks PersonY's way,appreciated,oReact,1
+PersonX makes ___ the other day,active,xAttr,1
+PersonX doesn't smell something,not intrigued,xReact,1
+PersonX cleans PersonY's bedroom,Loyal,xAttr,1
+PersonX exchanges numbers,don't store the phone number,xWant,0
+PersonX smells something,have a nose,xNeed,1
+PersonX does not help another ___,Don't offer thanks,oEffect,0
+PersonX helps another ___,Runs over,xNeed,1
+PersonX didn't learn how to bake a cake,She doesn't get the products.,xNeed,0
+PersonX doesn't practice all day,don't get their ball,xNeed,1
+PersonX does not exchange numbers,don't meet someone,xNeed,1
+PersonX did not finally get up,Doesn't get moving,xEffect,1
+PersonX practices all day,to go to the park,xNeed,1
+PersonX holds PersonY's attention,not accomplished,xReact,0
+PersonX is walking across the street,talented,xAttr,0
+PersonX gets the stain,flawed,xAttr,1
+PersonX runs for class president,hopeful,xAttr,1
+PersonX is walking across the street,energetic,xAttr,1
+PersonX learns how to bake a cake,get powdered sugar on themselves,xEffect,1
+PersonX looks PersonY's way,realizes it is Person X,oEffect,1
+PersonX helps another ___,to see how to help,xNeed,1
+PersonX finally got up,didn't miss appointment,xEffect,1
+PersonX reduces the ___ to levels,to teach everyone the benefit of low levels,xWant,1
+PersonX makes ___ the other day,hears noise,xEffect,0
+PersonX takes PersonY's outside,not excited,oReact,1
+PersonX does not exchange numbers,not eager,xReact,1
+PersonX applies for jobs,hopeless,xReact,1
+PersonX cuts swathes,not satisfied,xReact,1
+PersonX did not cut swathes,don't show craftsmanship,xWant,1
+PersonX does not look PersonY's way,don't walk up to PersonY,xWant,1
+PersonX cuts swathes,don't do damage,xWant,1
+PersonX applies for jobs,gets rejected from a job,xEffect,1
+PersonX practices all day,becomes an expert,xEffect,1
+PersonX smells something,confused,xReact,1
+PersonX is walking across the street,Don't return home,xWant,1
+PersonX doesn't practice all day,Don't go to the play gound,xNeed,1
+PersonX exchanges numbers,a phone number,xIntent,1
+PersonX reduces the ___ to levels,don't protect the environment,xWant,0
+PersonX does not clean PersonY's bedroom,not grateful.,oReact,1
+PersonX cleans PersonY's bedroom,grateful,oReact,1
+PersonX gets the stain,sloppy,xAttr,1
+PersonX doesn't hold PersonY's attention,don't control him,xWant,0
+PersonX makes ___ the other day,not happy,xReact,1
+PersonX exchanges numbers,asks someone for a phone number,xNeed,1
+PersonX makes ___ the other day,to wash dishes,xWant,0
+PersonX doesn't practice all day,doesn't notice improvement in X,oEffect,1
+PersonX doesn't smell something,not interested,xReact,1
+PersonX helps another ___,learn new information.,oEffect,1
+PersonX does not go ___ after work,Doesn't get tired,xEffect,1
+PersonX doesn't get the stain,not messy,xAttr,1
+PersonX practices all day,win the contest,xWant,1
+PersonX does not reduce the ___ to levels,don't make arrangements for it,xNeed,1
+PersonX exchanges numbers,don't get to know more about someone,xWant,0
+PersonX practices all day,don't get better,xWant,0
+PersonX does not apply for jobs,don't get a better life,xIntent,0
+PersonX makes ___ the other day,to shout and yell,xWant,0
+PersonX does not clean PersonY's bedroom,not caring,xAttr,0
+PersonX makes ___ the other day,Tells him her favorite recipe.,oWant,1
+PersonX applies for jobs,to make more money,xIntent,1
+PersonX helps another ___,don't practice charity,xWant,1
+PersonX does not look PersonY's way,don't look away,oWant,0
+PersonX finally got up,satisfied,xReact,1
+PersonX does not run for class president,doesn't sweat while speaking,xEffect,1
+PersonX didn't learn how to bake a cake,Doesn't get warm when near oven,xEffect,0
+PersonX is not walking across the street,don't say hi to their friend,xWant,0
+PersonX does not get everything PersonY needed,not appreciated,xReact,1
+PersonX helps another ___,grateful,oReact,1
+PersonX does not reduce the ___ to levels,don't save the earth,xWant,0
+PersonX exchanges numbers,not happy,oReact,1
+PersonX does not reduce the ___ to levels,doesn't get elected,xEffect,1
+PersonX is not walking across the street,Don't leave the house,xNeed,1
+PersonX does not help another ___,To find out what isn't wrong,xNeed,1
+PersonX does not clean PersonY's bedroom,Don't chill out,xWant,0
+PersonX does not clean PersonY's bedroom,Don't put cleaning supplies away,xWant,0
+PersonX is not walking across the street,Don't return home,xWant,0
+PersonX helps another ___,smile.,xEffect,1
+PersonX looks PersonY's way,to look away,xWant,1
+PersonX does not exchange numbers,don't be social,xWant,1
+PersonX runs for class president,not proud,oReact,1
+PersonX runs for class president,doesn't cater to the public,xEffect,1
+PersonX does not help another ___,Don't receive care,oWant,1
+PersonX does not help another ___,don't ask if she is okay,xWant,1
+PersonX doesn't hold PersonY's attention,Don't grab a hold of Person Y attention,xNeed,1
+PersonX didn't learn how to bake a cake,not interested,xAttr,1
+PersonX does not clean PersonY's bedroom,don't pick up cleaning supplies,xNeed,1
+PersonX doesn't smell something,Don't have a nose,xNeed,0
+PersonX does not reduce the ___ to levels,not diligent,xAttr,1
+PersonX applies for jobs,She doesn't get a job as manager.,xEffect,1
+PersonX helps another ___,not tired,xReact,1
+PersonX does not run for class president,Isn't supported by his friends,xEffect,0
+PersonX goes ___ after work,don't go back home,xWant,1
+PersonX does not go ___ after work,not hard-working,xAttr,1
+PersonX is walking across the street,return home,xWant,1
+PersonX cleans PersonY's bedroom,hugs X,oEffect,1
+PersonX does not help another ___,not friendly,xAttr,1
+PersonX gets the stain,wash clothes,xWant,1
+PersonX doesn't create the ___ in days,don't be consistent,xNeed,1
+PersonX practices all day,exhausted,xReact,1
+PersonX is not walking across the street,don't press the walk button,xNeed,1
+PersonX smells something,not curious,xReact,1
+PersonX does not reduce the ___ to levels,not competent,xAttr,1
+PersonX creates the ___ in days,relax,xWant,1
+PersonX cuts swathes,don't gain power,xWant,0
+PersonX does not look PersonY's way,Doesn't notice Person X,oEffect,1
+PersonX is walking across the street,don't say hi to their friend,xWant,1
+PersonX doesn't take PersonY's outside,don't spend time outside,xWant,1
+PersonX finally got up,goes walking,xEffect,1
+PersonX reduces the ___ to levels,breaking down,xAttr,0
+PersonX holds PersonY's attention,not Captivated,oReact,0
+PersonX reduces the ___ to levels,not happy about his success,xReact,1
+PersonX does not get everything PersonY needed,don't be thoughtful,xIntent,0
+PersonX did not finally get up,not great,xAttr,0
+PersonX practices all day,astonished,oReact,1
+PersonX cuts swathes,to do damage,xWant,1
+PersonX gets everything PersonY needed,to get some rest,xWant,1
+PersonX does not look PersonY's way,not satisfied,xReact,0
+PersonX does not clean PersonY's bedroom,not industrious,xAttr,0
+PersonX applies for jobs,don't obtain employment,xWant,0
+PersonX gets everything PersonY needed,to give things to PersonY,xWant,1
+PersonX gets the stain,washing clothes,xEffect,1
+PersonX looks PersonY's way,happy,xReact,1
+PersonX helps another ___,unselfish,xAttr,1
+PersonX cleans PersonY's bedroom,to practice being a maid,xIntent,1
+PersonX cleans PersonY's bedroom,not thankful,oReact,1
+PersonX makes ___ the other day,to buy ingredients,xNeed,1
+PersonX applies for jobs,not encouraged.,xReact,0
+PersonX is walking across the street,content,xAttr,0
+PersonX does not get everything PersonY needed,don't help persony,xIntent,0
+PersonX does not clean PersonY's bedroom,not happy,oReact,1
+PersonX cleans PersonY's bedroom,doesn't thank X,oEffect,1
+PersonX reduces the ___ to levels,to have studied the different levels,xNeed,1
+PersonX doesn't practice all day,not constant,xAttr,1
+PersonX takes PersonY's outside,happy,oReact,1
+PersonX does not exchange numbers,don't store the phone number,xWant,1
+PersonX cuts swathes,Doesn't get sweaty,xEffect,1
+PersonX holds PersonY's attention,to get feedback.,xWant,1
+PersonX holds PersonY's attention,captivated,oReact,1
+PersonX creates the ___ in days,talented,xAttr,1
+PersonX does not exchange numbers,Doesn't exchange a phone number,xNeed,1
+PersonX does not look PersonY's way,don't greet PersonX,oWant,1
+PersonX looks PersonY's way,don't walk up to PersonY,xWant,1
+PersonX doesn't smell something,not inquisitive,xAttr,1
+PersonX finally got up,to go somwhere,xIntent,1
+PersonX looks PersonY's way,Aroused,xAttr,1
+PersonX exchanges numbers,to meet someone,xNeed,1
+PersonX applies for jobs,to get a resume ready.,xNeed,1
+PersonX holds PersonY's attention,to help him,oWant,1
+PersonX didn't learn how to bake a cake,don't heat the oven,xWant,0
+PersonX looks PersonY's way,to look for PersonY,xNeed,1
+PersonX cleans PersonY's bedroom,Don't put cleaning supplies away,xWant,0
+PersonX does not clean PersonY's bedroom,not grateful,oReact,1
+PersonX cuts swathes,to make something,xWant,1
+PersonX holds PersonY's attention,intuitive,xAttr,1
+PersonX doesn't smell something,not curious,xReact,1
+PersonX goes ___ after work,to have a job,xNeed,1
+PersonX gets everything PersonY needed,to be helpful,xIntent,1
+PersonX does not apply for jobs,not hopeful,xAttr,1
+PersonX gets everything PersonY needed,don't inform personY,xWant,0
+PersonX does not look PersonY's way,don't be able to catch person's attention,xIntent,1
+PersonX helps another ___,not helpful,xReact,0
+PersonX does not go ___ after work,don't have a job,xNeed,0
+PersonX takes PersonY's outside,gets fresh air,oEffect,1
+PersonX is not walking across the street,not energetic,xAttr,0
+PersonX does not help another ___,Doesn't give time.,xEffect,1
+PersonX cleans PersonY's bedroom,Doesn't look for their items,oEffect,1
+PersonX doesn't take PersonY's outside,Doesn't get fresh air,oEffect,1
+PersonX practices all day,Doesn't have tired hands,xEffect,1
+PersonX doesn't smell something,doesn't light a candle,xEffect,1
+PersonX didn't make ___ the other day,don't have something for themselves,xIntent,0
+PersonX takes PersonY's outside,Doesn't create privacy,xEffect,0
+PersonX looks PersonY's way,not Surprised to see x,oReact,1
+PersonX did not cut swathes,not grateful,oReact,1
+PersonX does not exchange numbers,Doesn't ask someone for a phone number,xNeed,1
+PersonX looks PersonY's way,to greet PersonY,xWant,1
+PersonX didn't make ___ the other day,don't wash dishes,xWant,1
+PersonX finally got up,bored,xAttr,1
+PersonX reduces the ___ to levels,don't improve further,xWant,1
+PersonX does not get everything PersonY needed,not generous,xAttr,1
+PersonX does not look PersonY's way,don't notice PersonY,xNeed,0
+PersonX does not go ___ after work,don't get a cab,xNeed,1
+PersonX didn't make ___ the other day,don't shout and yell,xWant,0
+PersonX gets everything PersonY needed,to help persony,xIntent,1
+PersonX does not clean PersonY's bedroom,don't practice being a maid,xIntent,1
+PersonX cleans PersonY's bedroom,rearranges their room,oEffect,1
+PersonX helps another ___,not happy,oReact,1
+PersonX does not clean PersonY's bedroom,doesn't thank X,oEffect,1
+PersonX reduces the ___ to levels,Doesn't become resentful,oEffect,1
+PersonX doesn't smell something,not curious,xAttr,1
+PersonX helps another ___,Don't offer thanks,oEffect,0
+PersonX does not look PersonY's way,not seeing,xAttr,1
+PersonX looks PersonY's way,to say hello,xWant,1
+PersonX reduces the ___ to levels,competent,xAttr,1
+PersonX didn't make ___ the other day,not creative,xReact,0
+PersonX does not apply for jobs,don't make more money,xIntent,0
+PersonX goes ___ after work,not relaxed,xReact,1
+PersonX didn't learn how to bake a cake,don't advertise their new found hobby on social media,xWant,0
+PersonX goes ___ after work,becomes nervous,oEffect,0
+PersonX practices all day,don't win the competition,xWant,0
+PersonX is not walking across the street,Doesn't get a ticket for jwalking,xEffect,0
+PersonX didn't make ___ the other day,don't sell the table they made,xWant,0
+PersonX takes PersonY's outside,to pick up something,xNeed,1
+PersonX cleans PersonY's bedroom,helpful,xReact,1
+PersonX does not look PersonY's way,don't turn his/her head,xNeed,0
+PersonX gets everything PersonY needed,to thank PersonY,oWant,0
+PersonX didn't learn how to bake a cake,don't go to culinary school,xNeed,1
+PersonX doesn't smell something,not confused,xReact,1
+PersonX makes ___ the other day,Don't give her the ingredients.,xWant,1
+PersonX looks PersonY's way,Realizes it isn't Person X,oEffect,1
+PersonX gets the stain,don't clean up the stain,xWant,0
+PersonX runs for class president,not excited,xReact,1
+PersonX doesn't take PersonY's outside,don't play outside,xWant,1
+PersonX gets everything PersonY needed,taken care of,oReact,1
+PersonX smells something,to thank PersonX for turning off the oven.,oWant,1
+PersonX goes ___ after work,enthusiastic,xAttr,1
+PersonX does not apply for jobs,not encouraged.,xReact,1
+PersonX gets everything PersonY needed,not taken care of,oReact,0
+PersonX runs for class president,is despised by hs enemies,xEffect,1
+PersonX does not go ___ after work,Doesn't become nervous,oEffect,1
+PersonX does not get everything PersonY needed,don't know exactly what he needs,xNeed,1
+PersonX practices all day,not prepared,xReact,0
+PersonX did not cut swathes,don't have clean backyard,xIntent,1
+PersonX didn't make ___ the other day,Doesn't become his friend.,oWant,1
+PersonX cleans PersonY's bedroom,gets thanked,xEffect,1
+PersonX runs for class president,lobbying,xAttr,1
+PersonX doesn't take PersonY's outside,Isn't afforded privacy,oEffect,1
+PersonX takes PersonY's outside,refreshed,oReact,1
+PersonX cleans PersonY's bedroom,feels indebted,oEffect,1
+PersonX does not run for class president,not excited,xReact,0
+PersonX does not get everything PersonY needed,don't talk to personY,xNeed,1
+PersonX does not go ___ after work,Like it isn't a good way to relax,xReact,1
+PersonX didn't learn how to bake a cake,don't spend the day with their mother,xNeed,1
+PersonX smells something,to decide conclude,xWant,0
+PersonX doesn't take PersonY's outside,not energetic,xAttr,0
+PersonX finally got up,Doesn't get moving,xEffect,0
+PersonX holds PersonY's attention,attentive,oReact,1
+PersonX runs for class president,Don't see who wins,xWant,0
+PersonX runs for class president,to make a difference in their classroom,xIntent,1
+PersonX doesn't smell something,Nose sensor doesn't work,xEffect,1
+PersonX doesn't create the ___ in days,don't work with dedication,xNeed,1
+PersonX runs for class president,sweats while speaking,xEffect,1
+PersonX smells something,Doesn't use deodorant,xEffect,1
+PersonX did not cut swathes,not creative,xAttr,0
+PersonX doesn't take PersonY's outside,don't tell PersonX they don't like being outside,oWant,1
+PersonX does not clean PersonY's bedroom,Don't take a nap,oWant,1
+PersonX looks PersonY's way,to be able to catch person's attention,xIntent,1
+PersonX takes PersonY's outside,Person Y accuses them of stealing.,xEffect,1
+PersonX does not exchange numbers,don't call PersonX,oWant,1
+PersonX cleans PersonY's bedroom,nice,xAttr,1
+PersonX doesn't take PersonY's outside,don't relieve stress,xIntent,0
+PersonX doesn't create the ___ in days,Body doesn't tremble,xEffect,1
+PersonX didn't learn how to bake a cake,don't look up a recipe,xNeed,1
+PersonX does not exchange numbers,not curious,xAttr,1
+PersonX holds PersonY's attention,amused,oReact,1
+PersonX is not walking across the street,PersonX doesn't obey the traffic signals,xEffect,0
+PersonX takes PersonY's outside,not concerned,xReact,1
+PersonX didn't make ___ the other day,don't wear what they made,xWant,0
+PersonX didn't make ___ the other day,don't eat,xWant,1
+PersonX takes PersonY's outside,Doesn't get fresh air,xEffect,0
+PersonX applies for jobs,graduate,xAttr,1
+PersonX helps another ___,Call 911,xWant,1
+PersonX smells something,don't decide conclude,xWant,0
+PersonX goes ___ after work,doesn't get complimented on looks,xEffect,1
+PersonX holds PersonY's attention,interested,oReact,1
+PersonX creates the ___ in days,skillful,xAttr,1
+PersonX looks PersonY's way,Doesn't notice Person X,oEffect,1
+PersonX reduces the ___ to levels,is touted as an example,xEffect,1
+PersonX runs for class president,Voters allow PersonX to be elected,oEffect,1
+PersonX helps another ___,gives time.,xEffect,1
+PersonX doesn't create the ___ in days,effect,xEffect,1
+PersonX does not apply for jobs,don't buy a car,xWant,1
+PersonX didn't make ___ the other day,Don't tell her how to make it.,xWant,0
+PersonX does not get everything PersonY needed,PersonX isn't considerate,xEffect,1
+PersonX takes PersonY's outside,to be at PersonY's,xNeed,1
+PersonX doesn't hold PersonY's attention,not intuitive,xAttr,1
+PersonX takes PersonY's outside,to mow the yard,xWant,1
+PersonX gets the stain,careless,xAttr,1
+PersonX doesn't get the stain,don't trip,xNeed,1
+PersonX learns how to bake a cake,Doesn't get warm when near oven,xEffect,0
+PersonX did not cut swathes,not helpful,xReact,1
+PersonX gets the stain,not slightly upset,xReact,1
+PersonX cleans PersonY's bedroom,gets some windex,xEffect,1
+PersonX does not help another ___,don't be kind,xWant,1
+PersonX creates the ___ in days,Decide what to create,xNeed,1
+PersonX makes ___ the other day,creative,xReact,1
+PersonX didn't learn how to bake a cake,not Creative,xAttr,0
+PersonX applies for jobs,have an interview with PersonX,oWant,1
+PersonX does not exchange numbers,not flirty,xAttr,0
+PersonX takes PersonY's outside,Person Y doesn't follow them.,xEffect,0
+PersonX did not finally get up,not satisfied,xReact,0
+PersonX learns how to bake a cake,to cook desert,xIntent,1
+PersonX does not go ___ after work,not adventurous,xAttr,1
+PersonX takes PersonY's outside,to spend time together,xIntent,1
+PersonX does not look PersonY's way,don't say hello,oWant,1
+PersonX does not apply for jobs,not hopeless,xReact,1
+PersonX is not walking across the street,don't walk their dog around the neighborhood,xWant,1
+PersonX doesn't hold PersonY's attention,don't AVODI IT,oEffect,0
+PersonX reduces the ___ to levels,happy to get their problem solved.,oReact,1
+PersonX learns how to bake a cake,creative,xAttr,1
+PersonX exchanges numbers,exchanges a phone number,xNeed,1
+PersonX does not apply for jobs,don't fill forms,xNeed,1
+PersonX takes PersonY's outside,excited,xReact,1
+PersonX is not walking across the street,don't get to the other side,xIntent,1
+PersonX exchanges numbers,to call PersonX,oWant,1
+PersonX looks PersonY's way,surprised to see x,oReact,1
+PersonX makes ___ the other day,thanked,xEffect,1
+PersonX helps another ___,to be kind,xIntent,1
+PersonX does not exchange numbers,don't keep in touch,xWant,1
+PersonX did not cut swathes,not hardworking,xAttr,1
+PersonX does not clean PersonY's bedroom,Isn't surprised,oEffect,1
+PersonX helps another ___,receive care,oWant,1
+PersonX makes ___ the other day,to mix batter,xNeed,1
+PersonX does not clean PersonY's bedroom,not thankful,oReact,1
+PersonX does not exchange numbers,not happy,oReact,1
+PersonX didn't make ___ the other day,don't get all material for what they want to make,xNeed,1
+PersonX creates the ___ in days,sleep,xWant,1
+PersonX doesn't practice all day,not impressed,oReact,1
+PersonX does not exchange numbers,don't keep the phone number,oWant,1
+PersonX does not help another ___,Don't pay it forward,oEffect,1
+PersonX takes PersonY's outside,fun,xReact,1
+PersonX applies for jobs,to buy a car,xWant,1
+PersonX holds PersonY's attention,to respond verbally.,oWant,1
+PersonX does not get everything PersonY needed,don't thank PersonY,oWant,0
+PersonX cuts swathes,clean up mess,xWant,1
+PersonX does not apply for jobs,not unemployed,xAttr,1
+PersonX is walking across the street,to look right then left and right again,xNeed,1
+PersonX makes ___ the other day,to enjoy it.,xIntent,1
+PersonX does not clean PersonY's bedroom,Don't go to the bedroom,xNeed,1
+PersonX learns how to bake a cake,don't mix batter,xWant,0
+PersonX is walking across the street,don't go into the gas station market,xWant,1
+PersonX did not cut swathes,Doesn't get exercise,xEffect,1
+PersonX cleans PersonY's bedroom,is surprised,oEffect,1
+PersonX exchanges numbers,friendly,xAttr,1
+PersonX is walking across the street,to get to the other side,xIntent,1
+PersonX doesn't get the stain,not irresponsible,xAttr,1
+PersonX cuts swathes,productive,xAttr,1
+PersonX finally got up,to start the day,xIntent,1
+PersonX gets everything PersonY needed,PersonX is considerate,xEffect,1
+PersonX takes PersonY's outside,concerned,xReact,1
+PersonX doesn't take PersonY's outside,don't mow the yard,xWant,1
+PersonX does not reduce the ___ to levels,not happy to get their problem solved.,oReact,0
+PersonX doesn't take PersonY's outside,not helpful,xAttr,0
+PersonX finally got up,obligated,xReact,1
+PersonX helps another ___,Go an ambulance,oWant,0
+PersonX does not help another ___,Don't get work done,oWant,1
+PersonX didn't make ___ the other day,not active,xAttr,0
+PersonX holds PersonY's attention,inspiring,xAttr,1
+PersonX reduces the ___ to levels,to make an accomplishment,xIntent,1
+PersonX reduces the ___ to levels,skillful,xAttr,1
+PersonX doesn't smell something,Doesn't use deodorant,xEffect,1
+PersonX takes PersonY's outside,eager,xReact,1
+PersonX takes PersonY's outside,don't play outside,xWant,0
+PersonX creates the ___ in days,don't wrap up,xWant,0
+PersonX doesn't take PersonY's outside,not excited,xReact,1
+PersonX does not help another ___,not helpful,xAttr,1
+PersonX doesn't hold PersonY's attention,Don't pay attention to the goal,xWant,1
+PersonX gets the stain,messy,xAttr,1
+PersonX practices all day,Go to the play gound,xNeed,1
+PersonX is walking across the street,doesn't sweat,xEffect,1
+PersonX helps another ___,Don't learn new information.,oEffect,1
+PersonX makes ___ the other day,don't sell the table they made,xWant,1
+PersonX runs for class president,Announce campaign,xNeed,1
+PersonX goes ___ after work,tired,xReact,1
+PersonX holds PersonY's attention,Hold attention by saying or doing somethine,xNeed,1
+PersonX goes ___ after work,To get a cab,xNeed,1
+PersonX does not clean PersonY's bedroom,not good about themselves,xReact,0
+PersonX applies for jobs,turn on the computer,xNeed,1
+PersonX doesn't hold PersonY's attention,don't know he has been heard.,xWant,1
+PersonX reduces the ___ to levels,to make arrangements for it,xNeed,1
+PersonX does not exchange numbers,don't know more about personx,oWant,1
+PersonX runs for class president,proud,oReact,1
+PersonX holds PersonY's attention,captivating,xAttr,1
+PersonX smells something,Nose sensor doesn't work,xEffect,0
+PersonX does not apply for jobs,doesn't get hired,xEffect,1
+PersonX takes PersonY's outside,to be feeling cold inside,xNeed,1
+PersonX cuts swathes,satisfied,xReact,1
+PersonX creates the ___ in days,hard working,xAttr,1
+PersonX reduces the ___ to levels,to make a plan,xNeed,1
+PersonX learns how to bake a cake,don't bake cakes to sell,xWant,1
+PersonX learns how to bake a cake,don't heat the oven,xWant,0
+PersonX exchanges numbers,eager,xReact,1
+PersonX gets everything PersonY needed,to know exactly what he needs,xNeed,1
+PersonX cleans PersonY's bedroom,to show care for persony,xIntent,1
+PersonX does not exchange numbers,not friendly,xAttr,0
+PersonX reduces the ___ to levels,diligent,xAttr,1
+PersonX did not cut swathes,not productive,xAttr,1
+PersonX does not go ___ after work,doesn't get complimented on looks,xEffect,1
+PersonX reduces the ___ to levels,is approved of,xEffect,1
+PersonX takes PersonY's outside,excited,oReact,1
+PersonX does not help another ___,Don't go an ambulance,oWant,0
+PersonX doesn't get the stain,not wash clothes,xWant,1
+PersonX cuts swathes,creative,xAttr,1
+PersonX does not look PersonY's way,don't greet PersonY,xWant,1
+PersonX cleans PersonY's bedroom,to pick up cleaning supplies,xNeed,1
+PersonX practices all day,persistant,xAttr,1
+PersonX is walking across the street,PersonX obeys the traffic signals,xEffect,1
+PersonX does not look PersonY's way,not Interested,xAttr,1
+PersonX does not apply for jobs,Doesn't get an interview,xEffect,0
+PersonX does not reduce the ___ to levels,not industrious,xAttr,1
+PersonX helps another ___,friendly,xAttr,1
+PersonX didn't make ___ the other day,Doesn't hear noise,xEffect,0
+PersonX gets everything PersonY needed,not one deffied,xEffect,0
+PersonX does not exchange numbers,Someone to not interact with,xNeed,1
+PersonX does not help another ___,Don't see a person in need,xNeed,1
+PersonX finally got up,not satisfied,xReact,1
+PersonX makes ___ the other day,The ingredients in the blender.,xNeed,1
+PersonX gets everything PersonY needed,person x doesn't thank person y.,xEffect,0
+PersonX makes ___ the other day,doesn't cringe at noise,xEffect,1
+PersonX looks PersonY's way,not Appreciated,oReact,1
+PersonX learns how to bake a cake,interested,xAttr,1
+PersonX goes ___ after work,Doesn't get relaxed,xEffect,1
+PersonX gets the stain,to yell swear words,xWant,1
+PersonX practices all day,impressed,oReact,1
+PersonX smells something,curious,xReact,1
+PersonX doesn't hold PersonY's attention,Don't walk away.,oWant,0
+PersonX holds PersonY's attention,to entertain,xIntent,1
+PersonX goes ___ after work,don't sleep,xWant,1
+PersonX takes PersonY's outside,not Refreshed,oReact,1
+PersonX doesn't hold PersonY's attention,not Captivated,oReact,1
+PersonX doesn't get the stain,not careless,xAttr,1
+PersonX reduces the ___ to levels,to share the good news,xWant,1
+PersonX cleans PersonY's bedroom,Nice,xAttr,1
+PersonX doesn't create the ___ in days,not talented,xAttr,1
+PersonX reduces the ___ to levels,becomes resentful,oEffect,1
+PersonX cleans PersonY's bedroom,grateful.,oReact,1
+PersonX smells something,to know the real fact of things,xWant,1
+PersonX is walking across the street,hard working,xAttr,1
+PersonX applies for jobs,don't buy a car,xWant,1
+PersonX did not cut swathes,not skillful,xAttr,1
+PersonX reduces the ___ to levels,to keep the levels low always,xWant,1
+PersonX does not clean PersonY's bedroom,don't be helpful,xIntent,1
+PersonX goes ___ after work,To go back home,xWant,1
+PersonX holds PersonY's attention,to attention,xWant,1
+PersonX does not exchange numbers,don't like someone,xNeed,1
+PersonX does not help another ___,Don't call 911,xWant,1
+PersonX goes ___ after work,Doesn't meet date,oEffect,1
+PersonX practices all day,be the best at something,xWant,1
+PersonX does not reduce the ___ to levels,not cunning,xAttr,1
+PersonX does not get everything PersonY needed,don't rest,xWant,1
+PersonX does not help another ___,not grateful,oReact,1
+PersonX does not help another ___,Don't check the results,xWant,0
+PersonX is walking across the street,PersonX doesn't obey the traffic signals,xEffect,1
+PersonX learns how to bake a cake,don't advertise their new found hobby on social media,xWant,1
+PersonX does not get everything PersonY needed,not responsible,xAttr,1
+PersonX learns how to bake a cake,Brags about how good it is.,xWant,1
+PersonX applies for jobs,gets a new job,xEffect,1
+PersonX applies for jobs,to have his own apartment.,xIntent,1
+PersonX learns how to bake a cake,to look up a recipe,xNeed,1
+PersonX doesn't take PersonY's outside,not eager,xReact,1
+PersonX exchanges numbers,happy,xReact,1
+PersonX creates the ___ in days,Don't relax,xWant,1
+PersonX holds PersonY's attention,Grab a hold of Person Y attention,xNeed,1
+PersonX doesn't hold PersonY's attention,not accomplished,xReact,0
+PersonX doesn't get the stain,not smeared,xAttr,1
+PersonX reduces the ___ to levels,to buy machines of better quality,xNeed,1
+PersonX does not look PersonY's way,not interested,xAttr,1
+PersonX holds PersonY's attention,ood,xReact,1
+PersonX exchanges numbers,to desire more communication,xNeed,1
+PersonX does not reduce the ___ to levels,Doesn't become resentful,oEffect,1
+PersonX creates the ___ in days,Don't name things,xWant,1
+PersonX cleans PersonY's bedroom,put cleaning supplies away,xWant,1
+PersonX smells something,curious,xAttr,1
+PersonX does not help another ___,not tired,xReact,1
+PersonX is not walking across the street,not busy,xAttr,1
+PersonX does not help another ___,not helpful,xReact,1
+PersonX smells something,escape the flames,xEffect,1
+PersonX cleans PersonY's bedroom,industrious,xAttr,1
+PersonX does not clean PersonY's bedroom,Don't go to person y room,xNeed,1
+PersonX takes PersonY's outside,is afforded privacy,oEffect,1
+PersonX cleans PersonY's bedroom,Doesn't get some windex,xEffect,1
+PersonX creates the ___ in days,To finish the work,xWant,1
+PersonX gets everything PersonY needed,to inform personY,xWant,1
+PersonX helps another ___,Doesn't relieve,xEffect,0
+PersonX applies for jobs,Doesn't get a new job,xEffect,1
+PersonX doesn't take PersonY's outside,don't play baseball,xIntent,1
+PersonX does not run for class president,don't feel important,xIntent,0
+PersonX does not apply for jobs,Don't go to a job search website,xNeed,1
+PersonX is not walking across the street,Don't put on shoes,xNeed,0
+PersonX goes ___ after work,active,xAttr,1
+PersonX learns how to bake a cake,satiated,oReact,1
+PersonX helps another ___,to thank person x,oWant,1
+PersonX exchanges numbers,not fair in skin,xEffect,0
+PersonX does not get everything PersonY needed,not another joint,xEffect,0
+PersonX helps another ___,Don't check the results,xWant,0
+PersonX holds PersonY's attention,walk away.,oWant,0
+PersonX makes ___ the other day,helpful,xAttr,1
+PersonX takes PersonY's outside,don't return something,xWant,1
+PersonX does not go ___ after work,Doesn't become nervous,xEffect,1
+PersonX learns how to bake a cake,Creative,xAttr,1
+PersonX holds PersonY's attention,improves communication skills,xEffect,1
+PersonX practices all day,Don't be the best at something,xWant,0
+PersonX creates the ___ in days,diligent,xAttr,1
+PersonX cleans PersonY's bedroom,to rest,xWant,1
+PersonX cuts swathes,crafty,xAttr,1
+PersonX takes PersonY's outside,not exhausted,xReact,1
+PersonX doesn't create the ___ in days,Don't decide what to create,xNeed,0
+PersonX exchanges numbers,to call each other,xIntent,1
+PersonX cuts swathes,don't make something,xWant,1
+PersonX smells something,Grossed out,xAttr,1
+PersonX cleans PersonY's bedroom,happy,oReact,1
+PersonX does not go ___ after work,don't relax a bit,xIntent,1
+PersonX does not reduce the ___ to levels,don't praise him,oWant,1
+PersonX does not help another ___,Don't devise a problem solution,xNeed,1
+PersonX gets everything PersonY needed,don't get some rest,xWant,1
+PersonX holds PersonY's attention,Don't get A NEW THING,oEffect,1
+PersonX does not clean PersonY's bedroom,doesn't get thanked,xEffect,1
+PersonX does not help another ___,Doesn't run over,xNeed,0
+PersonX gets everything PersonY needed,to talk to personY,xNeed,1
+PersonX does not clean PersonY's bedroom,Don't thank person x,oWant,0
+PersonX cleans PersonY's bedroom,not to be paid,xWant,0
+PersonX exchanges numbers,don't keep in touch,xWant,0
+PersonX takes PersonY's outside,motivated,xAttr,1
+PersonX does not help another ___,Don't write it up,xWant,0
+PersonX learns how to bake a cake,Gets warm when near oven,xEffect,1
+PersonX practices all day,has tired hands,xEffect,1
+PersonX does not get everything PersonY needed,not helpful,xAttr,0
+PersonX gets everything PersonY needed,helpful,xAttr,1
+PersonX exchanges numbers,to store the phone number,xWant,1
+PersonX exchanges numbers,don't make money of someone,xWant,1
+PersonX runs for class president,not happy,xReact,1
+PersonX learns how to bake a cake,not satiated,oReact,1
+PersonX helps another ___,don't be kind,xWant,0
+PersonX is walking across the street,leave the house,xNeed,1
+PersonX gets everything PersonY needed,to thank personX,oWant,1
+PersonX doesn't hold PersonY's attention,don't get feedback.,xWant,1
+PersonX does not help another ___,Don't offer help,xNeed,1
+PersonX doesn't take PersonY's outside,not concerned,xReact,1
+PersonX gets everything PersonY needed,responsible,xAttr,1
+PersonX does not look PersonY's way,not curious,xReact,0
+PersonX didn't make ___ the other day,don't get drunk,xNeed,0
+PersonX runs for class president,wait for votes,xWant,1
+PersonX doesn't hold PersonY's attention,Don't learn something new,oEffect,1
+PersonX learns how to bake a cake,to mix batter,xWant,1
+PersonX didn't make ___ the other day,doesn't cringe at noise,xEffect,1
+PersonX learns how to bake a cake,to spend the day with their mother,xNeed,1
+PersonX does not exchange numbers,don't call someone,xWant,1
+PersonX does not exchange numbers,don't call each other,xIntent,1
+PersonX reduces the ___ to levels,Doesn't become inspired,oEffect,0
+PersonX learns how to bake a cake,to heat the oven,xWant,1
+PersonX is walking across the street,not neutral.,xReact,1
+PersonX practices all day,eager,xAttr,1
+PersonX learns how to bake a cake,curious,xAttr,1
+PersonX takes PersonY's outside,Person Y follows them.,xEffect,1
+PersonX gets the stain,to trip,xNeed,1
+PersonX does not exchange numbers,don't find out more,oWant,1
+PersonX takes PersonY's outside,creates privacy,xEffect,1
+PersonX looks PersonY's way,Doesn't catch Person Y's stare,xEffect,1
+PersonX doesn't practice all day,not ready,xReact,1
+PersonX does not apply for jobs,not confident,xAttr,1
+PersonX does not go ___ after work,not enthusiastic,xAttr,1
+PersonX does not help another ___,don't help,xIntent,1
+PersonX helps another ___,talks to help.,xEffect,1
+PersonX holds PersonY's attention,not ood,xReact,1
+PersonX practices all day,Doesn't sleep like a baby,xEffect,1
+PersonX takes PersonY's outside,to tell PersonX they don't like being outside,oWant,1
+PersonX doesn't practice all day,Don't be the best at something,xWant,1
+PersonX smells something,nose sensor works,xEffect,1
+PersonX takes PersonY's outside,exhausted,xReact,1
+PersonX doesn't hold PersonY's attention,not to be noticed,xIntent,1
+PersonX does not apply for jobs,not graduate,xAttr,1
+PersonX cleans PersonY's bedroom,Doesn't get tired out,xEffect,0
+PersonX helps another ___,tired,xReact,1
+PersonX holds PersonY's attention,not attentive,oReact,0
+PersonX does not apply for jobs,not weary,xReact,0
+PersonX cleans PersonY's bedroom,gather cleaning supplies,xNeed,1
+PersonX didn't make ___ the other day,don't enjoy it.,xIntent,0
+PersonX makes ___ the other day,assertive,xAttr,1
+PersonX applies for jobs,don't make money,xWant,0
+PersonX helps another ___,generous,xAttr,1
+PersonX did not cut swathes,Doesn't get a manicured lawn,xEffect,1
+PersonX takes PersonY's outside,not fun,xReact,0
+PersonX holds PersonY's attention,don't know he has been heard.,xWant,1
+PersonX learns how to bake a cake,She doesn't take it to their birthday.,xWant,1
+PersonX helps another ___,Get work done,oWant,1
+PersonX does not clean PersonY's bedroom,not helpful,xReact,0
+PersonX does not run for class president,not proud,oReact,1
+PersonX didn't learn how to bake a cake,not ambitious,xAttr,1
+PersonX takes PersonY's outside,to play with PersonX,oWant,1
+PersonX does not apply for jobs,don't get a resume ready.,xNeed,1
+PersonX smells something,don't know the real fact of things,xWant,1
+PersonX cleans PersonY's bedroom,say thank you,oWant,1
+PersonX smells something,be near a smell,xNeed,1
+PersonX holds PersonY's attention,Doesn't teach something,xEffect,1
+PersonX looks PersonY's way,don't say hello,xWant,1
+PersonX doesn't take PersonY's outside,don't be at PersonY's,xNeed,0
+PersonX does not apply for jobs,not impecunious,xAttr,1
+PersonX cuts swathes,to have clean backyard,xIntent,1
+PersonX is not walking across the street,PersonX doesn't stay in the crosswalk,xEffect,0
+PersonX doesn't hold PersonY's attention,not fascinating,xAttr,1
+PersonX reduces the ___ to levels,cunning,xAttr,1
+PersonX gets everything PersonY needed,happy,xReact,1
+PersonX cuts swathes,helpful,xReact,1
+PersonX does not reduce the ___ to levels,not happy about his success,xReact,0
+PersonX gets the stain,slightly upset,xReact,1
+PersonX cleans PersonY's bedroom,makes the bed,xEffect,1
+PersonX goes ___ after work,gets complimented on looks,xEffect,1
+PersonX takes PersonY's outside,gentle,xAttr,1
+PersonX makes ___ the other day,to have something for themselves,xIntent,1
+PersonX applies for jobs,don't go to work,xWant,0
+PersonX does not run for class president,Don't make poster,xWant,0
+PersonX applies for jobs,rejected,xReact,1
+PersonX does not get everything PersonY needed,not taken care of,oReact,1
+PersonX doesn't practice all day,Don't win a game,xWant,0
+PersonX does not reduce the ___ to levels,Doesn't become inspired,oEffect,1
+PersonX doesn't practice all day,not prepared,xReact,1
+PersonX does not look PersonY's way,don't observe PersonX,oWant,0
+PersonX smells something,Sick,xAttr,1
+PersonX does not apply for jobs,Don't have an interview with PersonX,oWant,1
+PersonX gets the stain,Doesn't look dirty,xEffect,0
+PersonX didn't make ___ the other day,Doesn't pour it in her cup.,xNeed,1
+PersonX learns how to bake a cake,Don't make a mess in the kitchen,xEffect,1
+PersonX practices all day,Notices improvement in X,oEffect,1
+PersonX helps another ___,helpful,xAttr,1
+PersonX doesn't get the stain,not flawed,xAttr,1
+PersonX makes ___ the other day,Tell her how to make it.,xWant,1
+PersonX gets everything PersonY needed,to enjoy the things,oWant,1
+PersonX makes ___ the other day,not Thanked,xEffect,1
+PersonX cleans PersonY's bedroom,don't clean other areas of the house,xWant,1
+PersonX creates the ___ in days,take notes,xWant,1
+PersonX runs for class president,political,xAttr,1
+PersonX does not exchange numbers,not warm,xAttr,1
+PersonX cleans PersonY's bedroom,chill out,xWant,1
+PersonX goes ___ after work,Doesn't become nervous,oEffect,1
+PersonX doesn't practice all day,Don't take the ball,xNeed,1
+PersonX runs for class president,Voters don't allow PersonX to be elected,oEffect,1
+PersonX goes ___ after work,hard-working,xAttr,1
+PersonX takes PersonY's outside,to return something,xWant,1
+PersonX doesn't hold PersonY's attention,not interested,oReact,1
+PersonX applies for jobs,weary,xReact,1
+PersonX does not go ___ after work,not fun,xAttr,1
+PersonX didn't make ___ the other day,not happy,xReact,1
+PersonX helps another ___,devise a problem solution,xNeed,1
+PersonX doesn't take PersonY's outside,not excited,oReact,1
+PersonX cleans PersonY's bedroom,good.,xReact,1
+PersonX cuts swathes,happy,xReact,1
+PersonX gets the stain,to fall,xNeed,1
+PersonX is walking across the street,Like there aren't closer to where they are going,xReact,1
+PersonX gets everything PersonY needed,tired,xReact,1
+PersonX doesn't get the stain,Doesn't look dirty,xEffect,1
+PersonX doesn't hold PersonY's attention,not attentive,oReact,1
+PersonX does not exchange numbers,don't get to know more about someone,xWant,1
+PersonX holds PersonY's attention,acknowledged,xReact,1
+PersonX gets everything PersonY needed,appreciated,xReact,1
+PersonX cuts swathes,skillful,xAttr,1
+PersonX cleans PersonY's bedroom,take a nap,oWant,1
+PersonX does not go ___ after work,not relaxed,xReact,1
+PersonX smells something,not interested,xReact,1
+PersonX helps another ___,Don't write it up,xWant,1
+PersonX doesn't smell something,Don't escape the flames,xEffect,0
+PersonX didn't make ___ the other day,Don't give her the ingredients.,xWant,1
+PersonX applies for jobs,pessimistic,xReact,1
+PersonX makes ___ the other day,Don't tell her how to make it.,xWant,1
+PersonX did not finally get up,not obligated,xReact,1
+PersonX helps another ___,don't ask if she is okay,xWant,0
+PersonX takes PersonY's outside,to chide PersonX,oWant,1
+PersonX does not clean PersonY's bedroom,not Loyal,xAttr,0
+PersonX applies for jobs,hopeful,xAttr,1
+PersonX does not clean PersonY's bedroom,don't reciprocate,oWant,0
+PersonX does not help another ___,Don't get what they need.,oEffect,1
+PersonX does not help another ___,not assists,xEffect,1
+PersonX learns how to bake a cake,not like a chef,xReact,1
+PersonX holds PersonY's attention,don't get feedback.,xWant,0
+PersonX gets everything PersonY needed,not overwhelmed,oReact,1
+PersonX smells something,attentive,xAttr,1
+PersonX does not go ___ after work,don't have some fun,xIntent,1
+PersonX takes PersonY's outside,don't mow the yard,xWant,1
+PersonX doesn't smell something,not Sick,xAttr,1
+PersonX did not finally get up,not rested,xAttr,1
+PersonX doesn't get the stain,not slightly upset,xReact,1
+PersonX practices all day,win a game,xWant,1
+PersonX does not exchange numbers,not Informed,xReact,0
+PersonX applies for jobs,to decide where to apply.,xNeed,1
+PersonX goes ___ after work,to get another job,xWant,1
+PersonX creates the ___ in days,Doesn't become tired,xEffect,1
+PersonX looks PersonY's way,to notice PersonY,xNeed,1
+PersonX gets the stain,to clean up the stain,xWant,1
+PersonX does not apply for jobs,not hardworking,xAttr,1
+PersonX does not help another ___,don't see how to help,xNeed,1
+PersonX does not look PersonY's way,not Aroused,xAttr,1
+PersonX doesn't create the ___ in days,don't have it ready,xIntent,1
+PersonX helps another ___,not supportive,xReact,0
+PersonX runs for class president,caters to the public,xEffect,1
+PersonX reduces the ___ to levels,not happy to get their problem solved.,oReact,0
+PersonX applies for jobs,to obtain employment,xWant,1
+PersonX doesn't create the ___ in days,Doesn't become tired,xEffect,1
+PersonX does not exchange numbers,not wild,xAttr,0
+PersonX didn't make ___ the other day,The ingredients not in the blender.,xNeed,1
+PersonX did not finally get up,Doesn't go walking,xEffect,1
+PersonX doesn't create the ___ in days,don't finish the work,xWant,1
+PersonX exchanges numbers,curious,xAttr,1
+PersonX does not run for class president,Don't make speech,xWant,0
+PersonX does not run for class president,doesn't cater to the public,xEffect,1
+PersonX cleans PersonY's bedroom,Doesn't make the bed,xEffect,1
+PersonX cuts swathes,to have clear land,xIntent,1
+PersonX runs for class president,Don't make speech,xWant,0
+PersonX doesn't practice all day,not eager,xAttr,1
+PersonX creates the ___ in days,Name things,xWant,1
+PersonX doesn't hold PersonY's attention,not captivating,xAttr,1
+PersonX doesn't take PersonY's outside,Doesn't get fresh air,xEffect,1
+PersonX does not apply for jobs,She doesn't get a job as manager.,xEffect,1
+PersonX practices all day,Don't win the contest,xWant,0
+PersonX holds PersonY's attention,Doesn't improve communication skills,xEffect,0
+PersonX makes ___ the other day,don't shout and yell,xWant,0
+PersonX takes PersonY's outside,Doesn't get fresh air,oEffect,0
+PersonX smells something,inquisitive,xAttr,1
+PersonX applies for jobs,to prepare resume or CV,xNeed,1
+PersonX cuts swathes,Doesn't get a manicured lawn,xEffect,0
+PersonX is not walking across the street,not hard working,xAttr,1
+PersonX gets everything PersonY needed,not another joint,xEffect,0
+PersonX does not help another ___,not happy,oReact,1
+PersonX doesn't smell something,don't thank PersonX for turning off the oven.,oWant,0
+PersonX finally got up,Was not written up in the job.,xEffect,1
+PersonX holds PersonY's attention,TO AVODI IT,oEffect,0
+PersonX does not apply for jobs,don't obtain employment,xWant,1
+PersonX did not cut swathes,Don't clean up mess,xWant,1
+PersonX does not reduce the ___ to levels,don't teach everyone the benefit of low levels,xWant,0
+PersonX does not clean PersonY's bedroom,Doesn't feel indebted,oEffect,0
+PersonX exchanges numbers,not happy,xReact,0
+PersonX looks PersonY's way,to spot PersonY,xNeed,1
+PersonX takes PersonY's outside,to help y get air,xIntent,1
+PersonX gets everything PersonY needed,to go shopping,xNeed,1
+PersonX didn't make ___ the other day,not Ignored,xEffect,0
+PersonX doesn't hold PersonY's attention,Don't get A NEW THING,oEffect,1
+PersonX does not reduce the ___ to levels,not skillful,xAttr,1
+PersonX does not help another ___,doesn't talk to help.,xEffect,1
+PersonX doesn't practice all day,don't go to the park,xNeed,1
+PersonX does not run for class president,not happy,xReact,0
+PersonX cleans PersonY's bedroom,happy to be helpful,xReact,1
+PersonX helps another ___,supportive,xReact,1
+PersonX cleans PersonY's bedroom,looks for their items,oEffect,1
+PersonX doesn't take PersonY's outside,don't play with PersonX,oWant,0
+PersonX gets the stain,ironing clothes,xEffect,1
+PersonX doesn't take PersonY's outside,not Caring,xAttr,0
+PersonX holds PersonY's attention,don't attract him,xWant,0
+PersonX doesn't create the ___ in days,Don't take notes,xWant,1
+PersonX gets everything PersonY needed,not loved,oReact,0
+PersonX does not clean PersonY's bedroom,Don't take a nap,xWant,0
+PersonX practices all day,doesn't notice improvement in X,oEffect,1
+PersonX does not look PersonY's way,Realizes it isn't Person X,oEffect,1
+PersonX makes ___ the other day,don't wash dishes,xWant,1
+PersonX did not finally get up,not lazy,xAttr,0
+PersonX cuts swathes,to avoid PersonX,oWant,0
+PersonX does not reduce the ___ to levels,Isn't approved of,xEffect,1
+PersonX creates the ___ in days,dominant,xAttr,1
+PersonX does not help another ___,Don't analyze the problem,xNeed,1
+PersonX exchanges numbers,to be social,xWant,1
+PersonX doesn't practice all day,don't put on a good performance,xIntent,1
+PersonX holds PersonY's attention,not amused,oReact,0
+PersonX runs for class president,doesn't sweat while speaking,xEffect,1
+PersonX gets the stain,not ironing clothes,xEffect,0
+PersonX does not look PersonY's way,Doesn't catch Person Y's stare,xEffect,0
+PersonX does not go ___ after work,Doesn't meet date,oEffect,1
+PersonX doesn't take PersonY's outside,not fun,oReact,1
+PersonX exchanges numbers,a girlfriend,xIntent,1
+PersonX doesn't practice all day,not astonished,oReact,1
+PersonX doesn't practice all day,not exhausted,xReact,1
+PersonX goes ___ after work,to go to work,xNeed,1
+PersonX learns how to bake a cake,make a mess in the kitchen,xEffect,1
+PersonX does not reduce the ___ to levels,don't make a plan,xNeed,1
+PersonX doesn't practice all day,Don't win the contest,xWant,1
+PersonX goes ___ after work,to relax a bit,xIntent,1
+PersonX is walking across the street,don't go to the grocery store,xWant,1
+PersonX runs for class president,Voters think about PersonX,oEffect,1
+PersonX didn't learn how to bake a cake,not Sweet tooth,xAttr,1
+PersonX did not cut swathes,don't make something,xWant,1
+PersonX helps another ___,Go to store,xNeed,1
+PersonX applies for jobs,to get a better life,xIntent,1
+PersonX applies for jobs,hire PersonX,oWant,1
+PersonX is not walking across the street,Don't buy groceries,xWant,0
+PersonX helps another ___,to be kind,xWant,1
+PersonX finally got up,rested,xAttr,1
+PersonX does not help another ___,Doesn't relieve,xEffect,1
+PersonX exchanges numbers,to get to know more about someone,xWant,1
+PersonX takes PersonY's outside,not fun,oReact,1
+PersonX did not finally get up,not engaged,xAttr,0
+PersonX looks PersonY's way,to observe PersonX,oWant,1
+PersonX runs for class president,Don't wait for votes,xWant,0
+PersonX goes ___ after work,Like it isn't a good way to relax,xReact,0
+PersonX smells something,report the fire,xEffect,1
+PersonX does not apply for jobs,don't hire PersonX,oWant,1
+PersonX doesn't practice all day,don't be good at it,xIntent,1
+PersonX gets everything PersonY needed,helpful and useful,xReact,1
+PersonX did not cut swathes,not satisfied,xReact,0
+PersonX creates the ___ in days,no effect,xEffect,1
+PersonX learns how to bake a cake,to advertise their new found hobby on social media,xWant,1
+PersonX takes PersonY's outside,energetic,xAttr,1
+PersonX does not help another ___,Don't learn new information.,oEffect,0
+PersonX goes ___ after work,to have some fun,xIntent,1
+PersonX learns how to bake a cake,Doesn't brag about how good it is.,xWant,1
+PersonX doesn't take PersonY's outside,not gentle,xAttr,0
+PersonX makes ___ the other day,to get drunk,xNeed,0
+PersonX smells something,not intrigued,xReact,1
+PersonX helps another ___,doesn't talk to help.,xEffect,0
+PersonX does not go ___ after work,Doesn't get energetic,xEffect,0
+PersonX does not go ___ after work,don't walk there,xNeed,1
+PersonX gets the stain,looks dirty,xEffect,1
+PersonX gets everything PersonY needed,to ask PersonY what is needed,xNeed,1
+PersonX does not run for class president,don't make a difference in their classroom,xIntent,1
+PersonX does not apply for jobs,don't afford food and rent,xIntent,0
+PersonX reduces the ___ to levels,don't save the earth,xWant,0
+PersonX is walking across the street,to go to the grocery store,xWant,1
+PersonX does not get everything PersonY needed,not capable,xAttr,1
+PersonX creates the ___ in days,to have it ready,xIntent,1
+PersonX exchanges numbers,to call someone,xWant,1
+PersonX practices all day,Doesn't get tired of doing it and stops altogether,xEffect,1
+PersonX is not walking across the street,doesn't sweat,xEffect,1
+PersonX doesn't create the ___ in days,not sleep,xWant,1
+PersonX does not apply for jobs,not eager,xAttr,1
+PersonX doesn't hold PersonY's attention,Doesn't improve communication skills,xEffect,1
+PersonX holds PersonY's attention,to know he has been heard.,xWant,1
+PersonX exchanges numbers,not Informed,xReact,0
+PersonX does not get everything PersonY needed,Person x doesn't use everything,xEffect,1
+PersonX helps another ___,not interested,xReact,0
+PersonX does not reduce the ___ to levels,don't make an accomplishment,xIntent,0
+PersonX applies for jobs,hardworking,xAttr,1
+PersonX exchanges numbers,to know more about personx,oWant,1
+PersonX looks PersonY's way,not curious,xReact,1
+PersonX applies for jobs,to gain financial security,xWant,1
+PersonX does not reduce the ___ to levels,don't know the minimum levels,xNeed,1
+PersonX doesn't take PersonY's outside,don't spend time together,xIntent,0
+PersonX exchanges numbers,informed,xReact,1
+PersonX cleans PersonY's bedroom,not good about themselves,xReact,0
+PersonX goes ___ after work,Gets energetic,xEffect,1
+PersonX didn't learn how to bake a cake,She doesn't put a cooking channel on.,xNeed,1
+PersonX does not get everything PersonY needed,don't inform personY,xWant,0
+PersonX reduces the ___ to levels,is commended for his efforts,xEffect,1
+PersonX doesn't take PersonY's outside,not Refreshed,oReact,1
+PersonX smells something,Don't escape the flames,xEffect,1
+PersonX goes ___ after work,not good,xReact,1
+PersonX did not finally get up,not ambitious,xAttr,1
+PersonX helps another ___,sympathetic,xAttr,1
+PersonX cuts swathes,violent,xAttr,0
+PersonX holds PersonY's attention,not acknowledged,xReact,0
+PersonX goes ___ after work,Doesn't become nervous,xEffect,1
+PersonX doesn't hold PersonY's attention,Doesn't teach something,xEffect,1
+PersonX gets everything PersonY needed,don't give things to PersonY,xWant,0
+PersonX does not run for class president,not lobbying,xAttr,1
+PersonX cleans PersonY's bedroom,to have a clean room,oWant,1
+PersonX does not get everything PersonY needed,don't give things to PersonY,xWant,1
+PersonX cuts swathes,gets a manicured lawn,xEffect,1
+PersonX does not exchange numbers,not happy,xReact,0
+PersonX helps another ___,not assists,xEffect,0
+PersonX runs for class president,Make slogan,xNeed,1
+PersonX goes ___ after work,relaxed,xReact,1
+PersonX gets everything PersonY needed,not helpful and useful,xReact,0
+PersonX looks PersonY's way,to look away,oWant,1
+PersonX practices all day,determined,xAttr,1
+PersonX helps another ___,analyze the problem,xNeed,1
+PersonX gets everything PersonY needed,to accept the items,oWant,1
+PersonX is walking across the street,busy,xAttr,1
+PersonX exchanges numbers,not eager,xReact,0
+PersonX cleans PersonY's bedroom,good about themselves,xReact,1
+PersonX doesn't practice all day,Doesn't have tired hands,xEffect,1
+PersonX does not get everything PersonY needed,not tired,xReact,1
+PersonX does not run for class president,Don't wait for votes,xWant,0
+PersonX helps another ___,not aids,xEffect,0
+PersonX didn't learn how to bake a cake,not curious,xAttr,1
+PersonX does not reduce the ___ to levels,don't buy machines of better quality,xNeed,1
+PersonX is walking across the street,buy groceries,xWant,1
+PersonX does not run for class president,Voters don't think about PersonX,oEffect,0
+PersonX exchanges numbers,someone to interact with,xNeed,1
+PersonX makes ___ the other day,happy,xReact,1
+PersonX practices all day,to win the competition,xWant,1
+PersonX learns how to bake a cake,Doesn't use energy to utilize oven,xEffect,0
+PersonX holds PersonY's attention,to be noticed,xIntent,1
+PersonX cuts swathes,not helpful,xReact,0
+PersonX cuts swathes,to gain power,xWant,0
+PersonX gets everything PersonY needed,generous,xAttr,1
+PersonX cleans PersonY's bedroom,not Happy to be helpful,xReact,0
+PersonX exchanges numbers,not breathing,xEffect,0
+PersonX is walking across the street,to look both ways,xNeed,1
+PersonX learns how to bake a cake,to eat,xIntent,1
+PersonX holds PersonY's attention,don't work on communication skills,oEffect,1
+PersonX did not cut swathes,don't avoid PersonX,oWant,0
+PersonX goes ___ after work,busy,xAttr,1
+PersonX does not get everything PersonY needed,not happy,xReact,1
+PersonX does not reduce the ___ to levels,don't share the good news,xWant,0
+PersonX does not clean PersonY's bedroom,Don't gather cleaning supplies,xNeed,1
+PersonX applies for jobs,encouraged.,xReact,1
+PersonX doesn't hold PersonY's attention,not amused,oReact,1
+PersonX learns how to bake a cake,accomplished,xReact,1
+PersonX does not run for class president,Don't make slogan,xNeed,0
+PersonX takes PersonY's outside,Isn't afforded privacy,oEffect,0
+PersonX does not exchange numbers,not sociable,xAttr,1
+PersonX gets the stain,don't yell swear words,xWant,1
+PersonX does not go ___ after work,not busy,xAttr,1
+PersonX doesn't practice all day,Doesn't learn something new,xEffect,1
+PersonX does not apply for jobs,don't gain financial security,xWant,1
+PersonX does not apply for jobs,don't prepare resume or CV,xNeed,1
+PersonX does not get everything PersonY needed,don't enjoy the things,oWant,1
+PersonX helps another ___,happy,oReact,1
+PersonX reduces the ___ to levels,make sacrifices,xNeed,1
+PersonX applies for jobs,desperate,xAttr,1
+PersonX runs for class president,see who wins,xWant,1
+PersonX gets everything PersonY needed,Person x doesn't use everything,xEffect,1
+PersonX does not apply for jobs,not desperate,xAttr,1
+PersonX applies for jobs,to go to work,xWant,1
+PersonX cleans PersonY's bedroom,thanks X,oEffect,1
+PersonX runs for class president,excited,xReact,1
+PersonX makes ___ the other day,Becomes his friend.,oWant,1
+PersonX applies for jobs,to afford food and rent,xIntent,1
+PersonX practices all day,ready,xReact,1
+PersonX runs for class president,is supported by his friends,xEffect,1
+PersonX does not run for class president,Isn't despised by hs enemies,xEffect,0
+PersonX applies for jobs,not pessimistic,xReact,1
+PersonX applies for jobs,impecunious,xAttr,1
+PersonX goes ___ after work,to get stuff done,xIntent,1
+PersonX applies for jobs,confident,xAttr,1
+PersonX gets everything PersonY needed,person x thanks person y,xEffect,0
+PersonX creates the ___ in days,Doesn't fall asleep,xEffect,1
+PersonX does not run for class president,Don't announce campaign,xNeed,0
+PersonX doesn't smell something,not attentive,xAttr,1
+PersonX looks PersonY's way,Interested,xAttr,1
+PersonX gets the stain,is mocked by others,xEffect,1
+PersonX does not look PersonY's way,don't look for PersonY,xNeed,0
+PersonX does not reduce the ___ to levels,not smart,xAttr,1
+PersonX applies for jobs,She doesn't make $1 million/year.,xEffect,1
+PersonX is not walking across the street,doesn't get hit by a car,xEffect,1
+PersonX helps another ___,Don't call 911,xWant,1
+PersonX finally got up,ambitious,xAttr,1
+PersonX does not look PersonY's way,not Appreciated,oReact,0
+PersonX is walking across the street,Doesn't get a ticket for jwalking,xEffect,1
+PersonX didn't make ___ the other day,don't go to the store,xNeed,1
+PersonX gets everything PersonY needed,to be thoughtful,xIntent,1
+PersonX helps another ___,to aid everyone,xIntent,1
+PersonX exchanges numbers,happy,oReact,1
+PersonX smells something,Don't report the fire,xEffect,1
+PersonX does not look PersonY's way,not looking,xAttr,1
+PersonX does not apply for jobs,doesn't get rejected from a job.,xEffect,0
+PersonX didn't make ___ the other day,don't mix batter,xNeed,1
+PersonX holds PersonY's attention,influential,xAttr,1
+PersonX doesn't hold PersonY's attention,not ood,xReact,1
+PersonX smells something,interested,xReact,1
+PersonX learns how to bake a cake,She puts a cooking channel on.,xNeed,1
+PersonX does not clean PersonY's bedroom,Don't go to person y house,xNeed,1
+PersonX creates the ___ in days,falls asleep,xEffect,1
+PersonX doesn't hold PersonY's attention,not inspiring,xAttr,1
+PersonX cleans PersonY's bedroom,not good.,xReact,0
+PersonX makes ___ the other day,Give her the ingredients.,xWant,1
+PersonX does not get everything PersonY needed,PersonX doesn't meet PersonY's needs,xEffect,1
+PersonX is not walking across the street,don't go to the grocery store,xWant,1
+PersonX smells something,lights a candle,xEffect,1
+PersonX runs for class president,apply to run,xNeed,1
+PersonX runs for class president,Vote,oWant,1
+PersonX practices all day,to put on a good performance,xIntent,1
+PersonX makes ___ the other day,not Ignored,xEffect,1
+PersonX doesn't get the stain,Isn't mocked by others,xEffect,1
+PersonX exchanges numbers,informed,oReact,1
+PersonX creates the ___ in days,Work hard,xNeed,1
+PersonX cleans PersonY's bedroom,Don't take a nap,xWant,0
+PersonX helps another ___,helpful,xReact,1
+PersonX finally got up,engaged,xAttr,0
+PersonX smells something,to tell his wife that the cake is burned.,xWant,1
+PersonX doesn't practice all day,not determined,xAttr,1
+PersonX doesn't create the ___ in days,not hard working,xAttr,1
+PersonX learns how to bake a cake,Don't get powdered sugar on themselves,xEffect,1
+PersonX does not exchange numbers,don't desire more communication,xNeed,1
+PersonX smells something,don't turn off the oven.,xWant,1
+PersonX doesn't take PersonY's outside,Doesn't create privacy,xEffect,0
+PersonX smells something,Doesn't reflect something different is taking in place,xEffect,0
+PersonX didn't learn how to bake a cake,Doesn't brag about how good it is.,xWant,0
+PersonX does not clean PersonY's bedroom,don't be nice,xIntent,1
+PersonX cuts swathes,don't dispose of,xWant,0
+PersonX cleans PersonY's bedroom,Don't chill out,xWant,1
+PersonX cleans PersonY's bedroom,go to person y house,xNeed,1
+PersonX looks PersonY's way,don't greet PersonY,xWant,1
+PersonX does not reduce the ___ to levels,don't protect the environment,xWant,0
+PersonX did not finally get up,don't start the day,xIntent,0
+PersonX does not run for class president,Don't decide to run,xNeed,1
+PersonX reduces the ___ to levels,don't share the good news,xWant,1
+PersonX gets everything PersonY needed,PersonX isn't considerate,xEffect,0
+PersonX helps another ___,Ask if she's okay,xWant,1
+PersonX takes PersonY's outside,to approach PersonY,xNeed,1
+PersonX doesn't take PersonY's outside,not happy,oReact,1
+PersonX is not walking across the street,not talented,xAttr,0
+PersonX did not finally get up,not bored,xAttr,1
+PersonX helps another ___,to find out what's wrong,xNeed,1
+PersonX cleans PersonY's bedroom,to be helpful.,xIntent,1
+PersonX learns how to bake a cake,Gains life skill,xEffect,1
+PersonX makes ___ the other day,to wear what they made,xWant,1
+PersonX learns how to bake a cake,like a chef,xReact,1
+PersonX creates the ___ in days,body trembles,xEffect,1
+PersonX finally got up,Got written up in job,xEffect,1
+PersonX holds PersonY's attention,teaches something,xEffect,1
+PersonX cleans PersonY's bedroom,thank person x,oWant,1
+PersonX makes ___ the other day,busy,xAttr,0
+PersonX did not cut swathes,don't gain power,xWant,0
+PersonX smells something,reflects something different is taking in place,xEffect,1
+PersonX applies for jobs,Doesn't get an interview,xEffect,1
+PersonX does not help another ___,not generous,xAttr,1
+PersonX does not go ___ after work,don't go back home,xWant,0
+PersonX doesn't create the ___ in days,Don't relax,xWant,0
+PersonX did not cut swathes,don't have clear land,xIntent,0
+PersonX doesn't practice all day,don't get better,xWant,1
+PersonX didn't learn how to bake a cake,Don't get powdered sugar on themselves,xEffect,0
+PersonX exchanges numbers,don't call someone,xWant,0
+PersonX didn't make ___ the other day,not Thanked,xEffect,1
+PersonX does not clean PersonY's bedroom,not Happy to be helpful,xReact,0
+PersonX doesn't get the stain,Don't get detergent,xWant,0
+PersonX reduces the ___ to levels,Isn't touted as an example,xEffect,1
+PersonX looks PersonY's way,Doesn't recognize Person Y,xEffect,1
+PersonX goes ___ after work,meets date,oEffect,1
+PersonX doesn't smell something,Don't report the fire,xEffect,1
+PersonX smells something,uses deodorant,xEffect,1
+PersonX gets everything PersonY needed,don't rest,xWant,1
+PersonX reduces the ___ to levels,to praise him,oWant,1
+PersonX didn't learn how to bake a cake,don't cook desert,xIntent,1
+PersonX takes PersonY's outside,caring,xAttr,1
+PersonX makes ___ the other day,to eat,xWant,1
+PersonX helps another ___,interested,xReact,1
+PersonX goes ___ after work,like it's a good way to relax,xReact,1
+PersonX gets everything PersonY needed,not appreciated,xReact,1
+PersonX doesn't take PersonY's outside,don't return something,xWant,0
+PersonX gets everything PersonY needed,PersonX meets PersonY's needs,xEffect,1
+PersonX doesn't hold PersonY's attention,not acknowledged,xReact,1
+PersonX looks PersonY's way,recognizes Person Y,xEffect,1
+PersonX gets everything PersonY needed,one diffied,xEffect,0
+PersonX makes ___ the other day,don't eat,xWant,0
+PersonX cuts swathes,not grateful,oReact,1
+PersonX takes PersonY's outside,not happy,oReact,1
+PersonX cleans PersonY's bedroom,Doesn't rearrange their room,oEffect,1
+PersonX looks PersonY's way,to walk up to PersonY,xWant,1
+PersonX cleans PersonY's bedroom,go to the bedroom,xNeed,1
+PersonX does not apply for jobs,Don't write a CV,xNeed,1
+PersonX exchanges numbers,to make money of someone,xWant,1
+PersonX holds PersonY's attention,learn something new,oEffect,1
+PersonX takes PersonY's outside,to thank PersonX,oWant,1
+PersonX runs for class president,decide to run,xNeed,1
+PersonX reduces the ___ to levels,to improve further,xWant,1
+PersonX holds PersonY's attention,GET A NEW THING,oEffect,1
+PersonX does not apply for jobs,She doesn't make $1 million/year.,xEffect,1
+PersonX looks PersonY's way,looking,xAttr,1
+PersonX does not go ___ after work,don't unwind,xIntent,0
+PersonX doesn't get the stain,not ironing clothes,xEffect,1
+PersonX doesn't practice all day,Doesn't get tired of doing it and stops altogether,xEffect,1
+PersonX didn't learn how to bake a cake,Doesn't gain life skill,xEffect,0
+PersonX practices all day,prepared,xReact,1
+PersonX doesn't get the stain,don't yell swear words,xWant,1
+PersonX does not help another ___,not interested,xReact,1
+PersonX finally got up,missed appointment,xEffect,1
+PersonX helps another ___,relieves,xEffect,1
+PersonX doesn't hold PersonY's attention,don't help him,oWant,1
+PersonX makes ___ the other day,to go to the store,xNeed,1
+PersonX did not cut swathes,not crafty,xAttr,1
+PersonX doesn't take PersonY's outside,don't thank PersonX,oWant,0
+PersonX does not get everything PersonY needed,not overwhelmed,oReact,1
+PersonX does not help another ___,not unselfish,xAttr,1
+PersonX is walking across the street,sweats,xEffect,1
+PersonX cuts swathes,needs something sharp,xNeed,1
+PersonX practices all day,Gets tired of doing it and stops altogether,xEffect,1
+PersonX is walking across the street,neutral.,xReact,1
+PersonX cleans PersonY's bedroom,go to person y room,xNeed,1
+PersonX doesn't create the ___ in days,Don't work hard,xNeed,1
+PersonX goes ___ after work,becomes nervous,xEffect,1
+PersonX cleans PersonY's bedroom,to thank PersonX,oWant,1
+PersonX makes ___ the other day,to sell the table they made,xWant,1
+PersonX gets everything PersonY needed,loved,oReact,1
+PersonX does not exchange numbers,not a phone number,xIntent,1
+PersonX holds PersonY's attention,fascinating,xAttr,1
+PersonX reduces the ___ to levels,Isn't commended for his efforts,xEffect,0
+PersonX gets everything PersonY needed,not happy,xReact,0
+PersonX takes PersonY's outside,don't spend time outside,xWant,0
+PersonX cleans PersonY's bedroom,not grateful.,oReact,0
+PersonX is not walking across the street,don't walk on the curb,xWant,1
+PersonX helps another ___,Doesn't give time.,xEffect,0
+PersonX exchanges numbers,breathing,xEffect,0
+PersonX smells something,intrigued,xReact,1
+PersonX reduces the ___ to levels,becomes inspired,oEffect,1
+PersonX does not reduce the ___ to levels,Isn't touted as an example,xEffect,1
+PersonX applies for jobs,go to a job search website,xNeed,1
+PersonX doesn't hold PersonY's attention,don't respond verbally.,oWant,1
+PersonX does not go ___ after work,don't go to work,xNeed,0
+PersonX reduces the ___ to levels,Isn't approved of,xEffect,1
