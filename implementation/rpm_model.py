@@ -763,9 +763,9 @@ for i in range(27):
 
   with open('output.txt', 'a') as file:
     print(classification_report(actual, preds), file = file)
-  os.system("git add .")
-  os.system("git commit -m message")
-  os.system("git push")
+  #os.system("git add .")
+  #os.system("git commit -m message")
+  #os.system("git push")
 
 os.system("git add .")
 os.system("git commit -m message")
