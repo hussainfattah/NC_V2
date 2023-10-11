@@ -724,7 +724,7 @@ for i in range(27):
   dataset['validation'] = Dataset.from_pandas(dts["test"].to_pandas())
   #dataset['test'] =  Dataset.from_pandas(new_test_dataset.to_pandas())
 
-  if test_data_all == True:
+  if test_with_all == True:
     dataset['test'] =  Dataset.from_pandas(new_test_dataset_2.to_pandas())
   else:
     dataset['test'] =  Dataset.from_pandas(new_test_dataset.to_pandas())
