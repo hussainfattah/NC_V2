@@ -257,6 +257,8 @@ for i in range(27):
   anion_logical_neg_data_minus = pd.read_csv(link8)
   anion_semi_logical_neg_data_minus = pd.read_csv(link9)
 
+  test_with_all = False
+
   if i == 0:
     #continue
     with open('output.txt', 'a') as file:
@@ -265,7 +267,7 @@ for i in range(27):
     # process annotated data
     train_data = annotated_data
   elif i == 1:
-    #continue
+    continue
     # process annotated data + ATOMIC(+)
     atomic_data = atomic_data.sample(frac=1, random_state=42)  # Shuffle + Set a random_state for reproducibility
     atomic_data = atomic_data.head(train_size) # For now, train with only 5000
@@ -275,7 +277,7 @@ for i in range(27):
     with open('output.txt', 'a') as file:
       print("Dataset: annotated data + atomic(+)", file = file)
   elif i == 2:
-    #continue
+    continue
     # process annotated data + ANION_Logical_Neg(+)
     anion_logical_neg_data_label_1 = anion_logical_neg_data_label_1.sample(frac=1, random_state=42)  # Shuffle + Set a random_state for reproducibility
     anion_logical_neg_data_label_1 = anion_logical_neg_data_label_1.head(train_size) # For now, train with only 5000
@@ -285,7 +287,7 @@ for i in range(27):
     with open('output.txt', 'a') as file:
       print("Dataset: annotated data + anion_logical_neg(+)", file = file)
   elif i == 3:
-    #continue
+    continue
     # process annotated data + ANION_Semi_Logical_Neg(+)
     anion_semi_logical_neg_data_label_1 = anion_semi_logical_neg_data_label_1.sample(frac=1, random_state=42)  # Shuffle + Set a random_state for reproducibility
     anion_semi_logical_neg_data_label_1 = anion_semi_logical_neg_data_label_1.head(train_size) # For now, train with only 5000
@@ -295,7 +297,7 @@ for i in range(27):
     with open('output.txt', 'a') as file:
       print("Dataset: annotated data + ANION_Semi_Logical_Neg(+)", file = file)
   elif i == 4:
-    #continue
+    continue
     # process annotated data + ANION_Logical_Neg(+) + ANION_Semi_Logical_Neg(+)
     anion_logical_neg_data_label_1 = anion_logical_neg_data_label_1.sample(frac=1, random_state=42)  # Shuffle + Set a random_state for reproducibility
     anion_logical_neg_data_label_1 = anion_logical_neg_data_label_1.head(train_size) # For now, train with only 5000
@@ -308,7 +310,7 @@ for i in range(27):
     with open('output.txt', 'a') as file:
       print("Dataset: annotated data + anion_logical_neg(+) + anion_semi_logical_neg(+)", file = file)
   elif i == 5:
-    #continue
+    continue
 
     atomic_data_minus = atomic_data_minus.sample(frac=1, random_state=42)
     atomic_data_minus = atomic_data_minus.head(train_size)
@@ -340,7 +342,7 @@ for i in range(27):
     with open('output.txt', 'a') as file:
       print("Dataset: annotated data + ATOMIC(-)", file = file)
   elif i == 6:
-    #continue
+    continue
 
     anion_logical_neg_data_minus = anion_logical_neg_data_minus.sample(frac=1, random_state=42)
     anion_logical_neg_data_minus = anion_logical_neg_data_minus.head(train_size)
@@ -373,7 +375,7 @@ for i in range(27):
     with open('output.txt', 'a') as file:
       print("Dataset: annotated data + ANION_Logical_Neg(-)", file = file)
   elif i == 7:
-    #continue
+    continue
 
     anion_semi_logical_neg_data_minus = anion_semi_logical_neg_data_minus.sample(frac=1, random_state=42)
     anion_semi_logical_neg_data_minus = anion_semi_logical_neg_data_minus.head(train_size)
@@ -406,7 +408,7 @@ for i in range(27):
     with open('output.txt', 'a') as file:
       print("Dataset: annotated data + ANION_Semi_Logical_Neg(-)", file = file)
   elif i == 8:
-    #continue
+    continue
     # process annotated data + ANION_Logical_Neg(-) + ANION_Semi_Logical_Neg(-)
     anion_logical_neg_data_minus = anion_logical_neg_data_minus.sample(frac=1, random_state=42)
     anion_logical_neg_data_minus = anion_logical_neg_data_minus.head(train_size)
@@ -419,7 +421,7 @@ for i in range(27):
     with open('output.txt', 'a') as file:
       print("Dataset: annotated data + ANION_Logical_Neg(-) + ANION_Semi_Logical_Neg(-)", file = file)
   elif i == 9:
-    #continue
+    continue
     # process annotated data + ATOMIC(+) + ATOMIC(-)
     atomic_data = atomic_data.sample(frac=1, random_state=42)  # Shuffle + Set a random_state for reproducibility
     atomic_data = atomic_data.head(train_size) # For now, train with only 5000
@@ -432,7 +434,7 @@ for i in range(27):
     with open('output.txt', 'a') as file:
       print("Dataset: annotated_data + ATOMIC(+) + ATOMIC(-)", file = file)
   elif i == 10:
-    #continue
+    continue
     # process annotated data + ANION_Logical_Neg(+) + ANION_Logical_Neg(-)
     anion_logical_neg_data_label_1 = anion_logical_neg_data_label_1.sample(frac=1, random_state=42)  # Shuffle + Set a random_state for reproducibility
     anion_logical_neg_data_label_1 = anion_logical_neg_data_label_1.head(train_size) # For now, train with only 5000
@@ -445,7 +447,7 @@ for i in range(27):
     with open('output.txt', 'a') as file:
       print("Dataset: annotated data + ANION_Logical_Neg(+) + ANION_Logical_Neg(-)", file = file)
   elif i == 11:
-    #continue
+    continue
     # process annotated data + ANION_Semi_Logical_Neg(+) + ANION_Semi_Logical_Neg(-)
     anion_semi_logical_neg_data_label_1 = anion_semi_logical_neg_data_label_1.sample(frac=1, random_state=42)  # Shuffle + Set a random_state for reproducibility
     anion_semi_logical_neg_data_label_1 = anion_semi_logical_neg_data_label_1.head(train_size) # For now, train with only 5000
@@ -458,7 +460,7 @@ for i in range(27):
     with open('output.txt', 'a') as file:
       print("Dataset: annotated data + ANION_Semi_Logical_Neg(+) + ANION_Semi_Logical_Neg(-)", file = file)
   elif i == 12:
-    #continue
+    continue
     # process annotated data + ANION_Logical_Neg(+) + ANION_Logical_Neg(-) + ANION_Semi_Logical_Neg(+) + ANION_Semi_Logical_Neg(-)
     anion_logical_neg_data_label_1 = anion_logical_neg_data_label_1.sample(frac=1, random_state=42)  # Shuffle + Set a random_state for reproducibility
     anion_logical_neg_data_label_1 = anion_logical_neg_data_label_1.head(train_size) # For now, train with only 5000
@@ -478,7 +480,7 @@ for i in range(27):
     with open('output.txt', 'a') as file:
       print("Dataset: annotated data + ANION_Logical_Neg(+) + ANION_Logical_Neg(-) + ANION_Semi_Logical_Neg(+) + ANION_Semi_Logical_Neg(-)", file = file)  
   elif i == 13:
-    #continue
+    continue
     # process annotated data + ATOMIC (+) + ATOMIC (-) +
     # ANION_Logical_Neg(+) + ANION_Logical_Neg(-) + ANION_Semi_Logical_Neg(+) + ANION_Semi_Logical_Neg(-)
 
@@ -507,7 +509,7 @@ for i in range(27):
     with open('output.txt', 'a') as file:
       print("Dataset: annotated data + ATOMIC (+) + ATOMIC (-) + ANION_Logical_Neg(+) + ANION_Logical_Neg(-) + ANION_Semi_Logical_Neg(+) + ANION_Semi_Logical_Neg(-)", file = file)
   elif i == 14:
-    #continue
+    continue
     # process ATOMIC(+)
     atomic_data = atomic_data.sample(frac=1, random_state=42)  # Shuffle + Set a random_state for reproducibility
     atomic_data = atomic_data.head(train_size) # For now, train with only 5000
@@ -517,7 +519,7 @@ for i in range(27):
     with open('output.txt', 'a') as file:
       print("Dataset: ATOMIC(+)", file = file)
   elif i == 15:
-    #continue
+    continue
     # process ANION_Logical_Neg(+)
     anion_logical_neg_data_label_1 = anion_logical_neg_data_label_1.sample(frac=1, random_state=42)  # Shuffle + Set a random_state for reproducibility
     anion_logical_neg_data_label_1 = anion_logical_neg_data_label_1.head(train_size) # For now, train with only 5000
@@ -527,7 +529,7 @@ for i in range(27):
     with open('output.txt', 'a') as file:
       print("Dataset: ANION_Logical_Neg(+)", file = file)
   elif i == 16:
-    #continue
+    continue
     # process ANION_Semi_Logical_Neg(+)
     anion_semi_logical_neg_data_label_1 = anion_semi_logical_neg_data_label_1.sample(frac=1, random_state=42)  # Shuffle + Set a random_state for reproducibility
     anion_semi_logical_neg_data_label_1 = anion_semi_logical_neg_data_label_1.head(train_size) # For now, train with only 5000
@@ -537,7 +539,7 @@ for i in range(27):
     with open('output.txt', 'a') as file:
       print("Dataset: anion_semi_logical_neg(+)", file = file)
   elif i == 17:
-    #continue
+    continue
     # process ANION_Logical_Neg(+) + ANION_Semi_Logical_Neg(+)
     anion_logical_neg_data_label_1 = anion_logical_neg_data_label_1.sample(frac=1, random_state=42)  # Shuffle + Set a random_state for reproducibility
     anion_logical_neg_data_label_1 = anion_logical_neg_data_label_1.head(train_size) # For now, train with only 5000
@@ -550,7 +552,7 @@ for i in range(27):
     with open('output.txt', 'a') as file:
       print("Dataset: ANION_Logical_Neg(+) + ANION_Semi_Logical_Neg(+)", file = file)
   elif i == 18:
-    #continue
+    continue
     atomic_data_minus = atomic_data_minus.sample(frac=1, random_state=42)
     atomic_data_minus = atomic_data_minus.head(train_size)
 
@@ -559,7 +561,7 @@ for i in range(27):
     with open('output.txt', 'a') as file:
       print("Dataset: ATOMIC(-)", file = file)
   elif i == 19:
-    #continue
+    continue
     anion_logical_neg_data_minus = anion_logical_neg_data_minus.sample(frac=1, random_state=42)
     anion_logical_neg_data_minus = anion_logical_neg_data_minus.head(train_size)
 
@@ -568,7 +570,7 @@ for i in range(27):
     with open('output.txt', 'a') as file:
       print("Dataset: ANION_Logical_Neg(-)", file = file)
   elif i == 20:
-    #continue
+    continue
     anion_semi_logical_neg_data_minus = anion_semi_logical_neg_data_minus.sample(frac=1, random_state=42)
     anion_semi_logical_neg_data_minus = anion_semi_logical_neg_data_minus.head(train_size)
 
@@ -577,7 +579,7 @@ for i in range(27):
     with open('output.txt', 'a') as file:
       print("Dataset: ANION_Semi_Logical_Neg(-)", file = file)
   elif i == 21:
-    #continue
+    continue
     # process ANION_Logical_Neg(-) + ANION_Semi_Logical_Neg(-)
     anion_logical_neg_data_minus = anion_logical_neg_data_minus.sample(frac=1, random_state=42)
     anion_logical_neg_data_minus = anion_logical_neg_data_minus.head(train_size)
@@ -590,7 +592,7 @@ for i in range(27):
     with open('output.txt', 'a') as file:
       print("Dataset: ANION_Logical_Neg(-) + ANION_Semi_Logical_Neg(-)", file = file)
   elif i == 22:
-    #continue
+    continue
     # process ATOMIC(+) + ATOMIC(-)
     atomic_data = atomic_data.sample(frac=1, random_state=42)  # Shuffle + Set a random_state for reproducibility
     atomic_data = atomic_data.head(train_size) # For now, train with only 5000
@@ -605,7 +607,7 @@ for i in range(27):
     with open('output.txt', 'a') as file:
       print("Dataset: ATOMIC(+) + ATOMIC(-)", file = file)
   elif i == 23:
-    #continue
+    continue
     # process ANION_Logical_Neg(+) + ANION_Logical_Neg(-)
     anion_logical_neg_data_label_1 = anion_logical_neg_data_label_1.sample(frac=1, random_state=42)  # Shuffle + Set a random_state for reproducibility
     anion_logical_neg_data_label_1 = anion_logical_neg_data_label_1.head(train_size) # For now, train with only 5000
@@ -618,7 +620,7 @@ for i in range(27):
     with open('output.txt', 'a') as file:
       print("Dataset: ANION_Logical_Neg(+) + ANION_Logical_Neg(-)", file = file)
   elif i == 24:
-    #continue
+    continue
     # process ANION_Semi_Logical_Neg(+) + ANION_Semi_Logical_Neg(-)
     anion_semi_logical_neg_data_label_1 = anion_semi_logical_neg_data_label_1.sample(frac=1, random_state=42)  # Shuffle + Set a random_state for reproducibility
     anion_semi_logical_neg_data_label_1 = anion_semi_logical_neg_data_label_1.head(train_size) # For now, train with only 5000
@@ -631,7 +633,7 @@ for i in range(27):
     with open('output.txt', 'a') as file:
       print("Dataset: ANION_Semi_Logical_Neg(+) + ANION_Semi_Logical_Neg(-)", file = file)
   elif i == 25:
-    #continue
+    continue
     # process ANION_Logical_Neg(+) + ANION_Logical_Neg(-) + ANION_Semi_Logical_Neg(+) + ANION_Semi_Logical_Neg(-)
     anion_logical_neg_data_label_1 = anion_logical_neg_data_label_1.sample(frac=1, random_state=42)  # Shuffle + Set a random_state for reproducibility
     anion_logical_neg_data_label_1 = anion_logical_neg_data_label_1.head(train_size) # For now, train with only 5000
@@ -652,6 +654,7 @@ for i in range(27):
       print("Dataset: ANION_Logical_Neg(+) + ANION_Logical_Neg(-) + ANION_Semi_Logical_Neg(+) + ANION_Semi_Logical_Neg(-)", file = file)  
   elif i == 26:
     #continue
+    test_with_all = True
     # process ATOMIC (+) + ATOMIC (-) + ANION_Logical_Neg(+) + ANION_Logical_Neg(-) + ANION_Semi_Logical_Neg(+) + ANION_Semi_Logical_Neg(-)
     atomic_data = atomic_data.sample(frac=1, random_state=42)  # Shuffle + Set a random_state for reproducibility
     atomic_data = atomic_data.head(train_size) # For now, train with only 5000
@@ -698,19 +701,33 @@ for i in range(27):
   test_dataset = test_dataset.map(concat_all_by_sep_train)
   test_dataset
 
+  test_dataset_all = Dataset.from_pandas(test_data_all)
+  test_dataset_all = test_dataset_all.map(concat_all_by_sep_train)
+  test_dataset_all
+
   new_test_dataset = test_dataset
   if '__index_level_0__' in test_dataset.column_names:
     new_test_dataset = test_dataset.remove_columns(['__index_level_0__'])
   new_test_dataset
 
+  new_test_dataset_2 = test_dataset_all
+  if '__index_level_0__' in test_dataset_all.column_names:
+    new_test_dataset_2 = test_dataset_all.remove_columns(['__index_level_0__'])
+  new_test_dataset_2
+
   dts = Dataset.from_pandas(new_train_dataset.to_pandas()).train_test_split(test_size=0.10)
-  print(dts)
+  #print(dts)
 
   dataset = DatasetDict()
 
   dataset['train'] = Dataset.from_pandas(dts["train"].to_pandas())
   dataset['validation'] = Dataset.from_pandas(dts["test"].to_pandas())
-  dataset['test'] =  Dataset.from_pandas(new_test_dataset.to_pandas())
+  #dataset['test'] =  Dataset.from_pandas(new_test_dataset.to_pandas())
+
+  if test_data_all == True:
+    dataset['test'] =  Dataset.from_pandas(new_test_dataset_2.to_pandas())
+  else:
+    dataset['test'] =  Dataset.from_pandas(new_test_dataset.to_pandas())
 
   print(dataset)
 
