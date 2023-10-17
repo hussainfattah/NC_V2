@@ -27,6 +27,7 @@ import csv
 import random
 import os 
 from sklearn.dummy import DummyClassifier
+from transformers import AutoTokenizer
 
 import torch
 torch.cuda.empty_cache()
@@ -76,10 +77,12 @@ def concat_all_by_sep_train(example):
 
   return {'label': output, 'text': final_str}
 
-tokenizer = RobertaTokenizer.from_pretrained("roberta-base")
+#tokenizer = RobertaTokenizer.from_pretrained("roberta-base")
+tokenizer = AutoTokenizer.from_pretrained("facebook/bart-large-cnn")
 
 def tokenize_function(examples):
-    return tokenizer(examples["text"], padding="max_length", truncation=True)
+  #return tokenizer(examples["text"], padding="max_length", truncation=True)
+  return tokenizer(examples["text"], padding=True, truncation=True, return_tensors="pt")
 
 metric = load_metric("accuracy")
 
