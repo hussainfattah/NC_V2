@@ -266,7 +266,7 @@ for train_size in size_list:
 
       train_data = pd.concat([anion_logical_neg_data_label_1, anion_logical_neg_data_minus], axis=0)
 
-     with open('output.txt', 'a') as file:
+      with open('output.txt', 'a') as file:
         print("Dataset: ANION_Logical_Neg(+) + ANION_Logical_Neg(-), Size: ", train_size, file = file)
     elif i == 10:
       # process ANION_Semi_Logical_Neg(+) + ANION_Semi_Logical_Neg(-)
