@@ -1,0 +1,59 @@
+1488
+642880
+188296
+114930
+300000
+564888
+344790
+Dataset: ATOMIC(+), Size:  5000
+Dataset: ANION_Semi_Logical_Neg(+), Size:  5000
+Dataset: anion_semi_logical_neg(+), Size:  5000
+Dataset: ANION_Logical_Neg(+) + ANION_Semi_Logical_Neg(+), Size:  5000
+Dataset: ATOMIC(-), Size:  5000
+Dataset: ANION_Logical_Neg(-), Size:  5000
+Dataset: ANION_Semi_Logical_Neg(-), Size:  5000
+Dataset: ANION_Logical_Neg(-) + ANION_Semi_Logical_Neg(-), Size:  5000
+Dataset: ATOMIC(+) + ATOMIC(-), Size:  5000
+Dataset: ANION_Logical_Neg(+) + ANION_Logical_Neg(-), Size:  5000
+Dataset: ANION_Semi_Logical_Neg(+) + ANION_Semi_Logical_Neg(-), Size:  5000
+Dataset: ANION_Logical_Neg(+) + ANION_Logical_Neg(-) + ANION_Semi_Logical_Neg(+) + ANION_Semi_Logical_Neg(-), Size:  5000
+Dataset: ATOMIC (+) + ATOMIC (-) + ANION_Logical_Neg(+) + ANION_Logical_Neg(-) + ANION_Semi_Logical_Neg(+) + ANION_Semi_Logical_Neg(-), Size:  5000
+Dataset: ATOMIC(+), Size:  25000
+Dataset: ANION_Semi_Logical_Neg(+), Size:  25000
+Dataset: anion_semi_logical_neg(+), Size:  25000
+Dataset: ANION_Logical_Neg(+) + ANION_Semi_Logical_Neg(+), Size:  25000
+Dataset: ATOMIC(-), Size:  25000
+Dataset: ANION_Logical_Neg(-), Size:  25000
+Dataset: ANION_Semi_Logical_Neg(-), Size:  25000
+Dataset: ANION_Logical_Neg(-) + ANION_Semi_Logical_Neg(-), Size:  25000
+Dataset: ATOMIC(+) + ATOMIC(-), Size:  25000
+Dataset: ANION_Logical_Neg(+) + ANION_Logical_Neg(-), Size:  25000
+Dataset: ANION_Semi_Logical_Neg(+) + ANION_Semi_Logical_Neg(-), Size:  25000
+Dataset: ANION_Logical_Neg(+) + ANION_Logical_Neg(-) + ANION_Semi_Logical_Neg(+) + ANION_Semi_Logical_Neg(-), Size:  25000
+Dataset: ATOMIC (+) + ATOMIC (-) + ANION_Logical_Neg(+) + ANION_Logical_Neg(-) + ANION_Semi_Logical_Neg(+) + ANION_Semi_Logical_Neg(-), Size:  25000
+Dataset: ATOMIC(+), Size:  50000
+Dataset: ANION_Semi_Logical_Neg(+), Size:  50000
+Dataset: anion_semi_logical_neg(+), Size:  50000
+Dataset: ANION_Logical_Neg(+) + ANION_Semi_Logical_Neg(+), Size:  50000
+Dataset: ATOMIC(-), Size:  50000
+Dataset: ANION_Logical_Neg(-), Size:  50000
+Dataset: ANION_Semi_Logical_Neg(-), Size:  50000
+Dataset: ANION_Logical_Neg(-) + ANION_Semi_Logical_Neg(-), Size:  50000
+Dataset: ATOMIC(+) + ATOMIC(-), Size:  50000
+Dataset: ANION_Logical_Neg(+) + ANION_Logical_Neg(-), Size:  50000
+Dataset: ANION_Semi_Logical_Neg(+) + ANION_Semi_Logical_Neg(-), Size:  50000
+Dataset: ANION_Logical_Neg(+) + ANION_Logical_Neg(-) + ANION_Semi_Logical_Neg(+) + ANION_Semi_Logical_Neg(-), Size:  50000
+Dataset: ATOMIC (+) + ATOMIC (-) + ANION_Logical_Neg(+) + ANION_Logical_Neg(-) + ANION_Semi_Logical_Neg(+) + ANION_Semi_Logical_Neg(-), Size:  50000
+Dataset: ATOMIC(+), Size:  100000
+Dataset: ANION_Semi_Logical_Neg(+), Size:  100000
+Dataset: anion_semi_logical_neg(+), Size:  100000
+Dataset: ANION_Logical_Neg(+) + ANION_Semi_Logical_Neg(+), Size:  100000
+Dataset: ATOMIC(-), Size:  100000
+Dataset: ANION_Logical_Neg(-), Size:  100000
+Dataset: ANION_Semi_Logical_Neg(-), Size:  100000
+Dataset: ANION_Logical_Neg(-) + ANION_Semi_Logical_Neg(-), Size:  100000
+Dataset: ATOMIC(+) + ATOMIC(-), Size:  100000
+Dataset: ANION_Logical_Neg(+) + ANION_Logical_Neg(-), Size:  100000
+Dataset: ANION_Semi_Logical_Neg(+) + ANION_Semi_Logical_Neg(-), Size:  100000
+Dataset: ANION_Logical_Neg(+) + ANION_Logical_Neg(-) + ANION_Semi_Logical_Neg(+) + ANION_Semi_Logical_Neg(-), Size:  100000
+Dataset: ATOMIC (+) + ATOMIC (-) + ANION_Logical_Neg(+) + ANION_Logical_Neg(-) + ANION_Semi_Logical_Neg(+) + ANION_Semi_Logical_Neg(-), Size:  100000
