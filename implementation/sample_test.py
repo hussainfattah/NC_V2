@@ -1,6 +1,6 @@
 import os 
 
-with open('sample.txt', 'w') as file:
+with open('demo.txt', 'w') as file:
   print('demo output', file = file)
 
 os.system("git add .")
