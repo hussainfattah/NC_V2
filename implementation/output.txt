@@ -5,55 +5,24 @@
 300000
 564888
 344790
+DummyClassifier(most frequent):
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00       345
+           1       0.77      1.00      0.87      1143
+
+    accuracy                           0.77      1488
+   macro avg       0.38      0.50      0.43      1488
+weighted avg       0.59      0.77      0.67      1488
+
+DummyClassifier(random):
+              precision    recall  f1-score   support
+
+           0       0.25      0.53      0.34       345
+           1       0.78      0.50      0.61      1143
+
+    accuracy                           0.51      1488
+   macro avg       0.51      0.52      0.47      1488
+weighted avg       0.66      0.51      0.55      1488
+
 Dataset: ATOMIC(+), Size:  5000
-Dataset: ANION_Semi_Logical_Neg(+), Size:  5000
-Dataset: anion_semi_logical_neg(+), Size:  5000
-Dataset: ANION_Logical_Neg(+) + ANION_Semi_Logical_Neg(+), Size:  5000
-Dataset: ATOMIC(-), Size:  5000
-Dataset: ANION_Logical_Neg(-), Size:  5000
-Dataset: ANION_Semi_Logical_Neg(-), Size:  5000
-Dataset: ANION_Logical_Neg(-) + ANION_Semi_Logical_Neg(-), Size:  5000
-Dataset: ATOMIC(+) + ATOMIC(-), Size:  5000
-Dataset: ANION_Logical_Neg(+) + ANION_Logical_Neg(-), Size:  5000
-Dataset: ANION_Semi_Logical_Neg(+) + ANION_Semi_Logical_Neg(-), Size:  5000
-Dataset: ANION_Logical_Neg(+) + ANION_Logical_Neg(-) + ANION_Semi_Logical_Neg(+) + ANION_Semi_Logical_Neg(-), Size:  5000
-Dataset: ATOMIC (+) + ATOMIC (-) + ANION_Logical_Neg(+) + ANION_Logical_Neg(-) + ANION_Semi_Logical_Neg(+) + ANION_Semi_Logical_Neg(-), Size:  5000
-Dataset: ATOMIC(+), Size:  25000
-Dataset: ANION_Semi_Logical_Neg(+), Size:  25000
-Dataset: anion_semi_logical_neg(+), Size:  25000
-Dataset: ANION_Logical_Neg(+) + ANION_Semi_Logical_Neg(+), Size:  25000
-Dataset: ATOMIC(-), Size:  25000
-Dataset: ANION_Logical_Neg(-), Size:  25000
-Dataset: ANION_Semi_Logical_Neg(-), Size:  25000
-Dataset: ANION_Logical_Neg(-) + ANION_Semi_Logical_Neg(-), Size:  25000
-Dataset: ATOMIC(+) + ATOMIC(-), Size:  25000
-Dataset: ANION_Logical_Neg(+) + ANION_Logical_Neg(-), Size:  25000
-Dataset: ANION_Semi_Logical_Neg(+) + ANION_Semi_Logical_Neg(-), Size:  25000
-Dataset: ANION_Logical_Neg(+) + ANION_Logical_Neg(-) + ANION_Semi_Logical_Neg(+) + ANION_Semi_Logical_Neg(-), Size:  25000
-Dataset: ATOMIC (+) + ATOMIC (-) + ANION_Logical_Neg(+) + ANION_Logical_Neg(-) + ANION_Semi_Logical_Neg(+) + ANION_Semi_Logical_Neg(-), Size:  25000
-Dataset: ATOMIC(+), Size:  50000
-Dataset: ANION_Semi_Logical_Neg(+), Size:  50000
-Dataset: anion_semi_logical_neg(+), Size:  50000
-Dataset: ANION_Logical_Neg(+) + ANION_Semi_Logical_Neg(+), Size:  50000
-Dataset: ATOMIC(-), Size:  50000
-Dataset: ANION_Logical_Neg(-), Size:  50000
-Dataset: ANION_Semi_Logical_Neg(-), Size:  50000
-Dataset: ANION_Logical_Neg(-) + ANION_Semi_Logical_Neg(-), Size:  50000
-Dataset: ATOMIC(+) + ATOMIC(-), Size:  50000
-Dataset: ANION_Logical_Neg(+) + ANION_Logical_Neg(-), Size:  50000
-Dataset: ANION_Semi_Logical_Neg(+) + ANION_Semi_Logical_Neg(-), Size:  50000
-Dataset: ANION_Logical_Neg(+) + ANION_Logical_Neg(-) + ANION_Semi_Logical_Neg(+) + ANION_Semi_Logical_Neg(-), Size:  50000
-Dataset: ATOMIC (+) + ATOMIC (-) + ANION_Logical_Neg(+) + ANION_Logical_Neg(-) + ANION_Semi_Logical_Neg(+) + ANION_Semi_Logical_Neg(-), Size:  50000
-Dataset: ATOMIC(+), Size:  100000
-Dataset: ANION_Semi_Logical_Neg(+), Size:  100000
-Dataset: anion_semi_logical_neg(+), Size:  100000
-Dataset: ANION_Logical_Neg(+) + ANION_Semi_Logical_Neg(+), Size:  100000
-Dataset: ATOMIC(-), Size:  100000
-Dataset: ANION_Logical_Neg(-), Size:  100000
-Dataset: ANION_Semi_Logical_Neg(-), Size:  100000
-Dataset: ANION_Logical_Neg(-) + ANION_Semi_Logical_Neg(-), Size:  100000
-Dataset: ATOMIC(+) + ATOMIC(-), Size:  100000
-Dataset: ANION_Logical_Neg(+) + ANION_Logical_Neg(-), Size:  100000
-Dataset: ANION_Semi_Logical_Neg(+) + ANION_Semi_Logical_Neg(-), Size:  100000
-Dataset: ANION_Logical_Neg(+) + ANION_Logical_Neg(-) + ANION_Semi_Logical_Neg(+) + ANION_Semi_Logical_Neg(-), Size:  100000
-Dataset: ATOMIC (+) + ATOMIC (-) + ANION_Logical_Neg(+) + ANION_Logical_Neg(-) + ANION_Semi_Logical_Neg(+) + ANION_Semi_Logical_Neg(-), Size:  100000
