@@ -11,7 +11,7 @@ with open('demo.txt', 'w') as file:
   print('demo output size: ', size, file = file)
 
 # Define the path to your Git repository
-repo_path = '/negation_for_common_sense'
+repo_path = './negation_for_common_sense'
 
 #https://github.com/hmfattah/negation_for_common_sense
 
