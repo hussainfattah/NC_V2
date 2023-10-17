@@ -4,6 +4,8 @@
 #pip install scipy
 #pip install torch
 
+#pip install accelerate==0.20.3
+
 #pip install -U negate
 #from negate import Negator
 
@@ -24,6 +26,7 @@ import json
 import csv
 import random
 import os 
+from sklearn.dummy import DummyClassifier
 
 import torch
 torch.cuda.empty_cache()
@@ -102,8 +105,6 @@ def custom_metrics_all(eval_pred):
 
     return {"precision": precision, "recall": recall, "f1": f1, "accuracy": accuracy}
 
-#pip install accelerate==0.20.3
-
 lr = 2e-5
 
 def getTrainingArguments(size):
@@ -139,6 +140,39 @@ def getTrainingArguments(size):
   )
   return t_args
 
+# ---**Dummy classifier**---
+r1 = ['a' for _ in range(5000)]
+r2 = [random.randint(0, 1) for _ in range(5000)]
+X1 = np.array(r1)
+y1 = np.array(r2)
+
+X2 = test_data_all['p'].values.flatten()
+y2 = test_data_all['output'].values.flatten()
+
+# Create a DummyClassifier with a "most frequent" strategy
+dummy_clf1 = DummyClassifier(strategy="most_frequent")
+# Fit the DummyClassifier on the training data
+dummy_clf1.fit(X1, y1)
+# Make predictions on the test data
+y_pred1 = dummy_clf1.predict(X2)
+
+# Create a DummyClassifier with a "most frequent" strategy
+dummy_clf2 = DummyClassifier(strategy="uniform")
+dummy_clf2.fit(X1, y1)
+y_pred2 = dummy_clf2.predict(X2)
+
+# Generate classification report
+report1 = classification_report(y2, y_pred1)
+with open('output.txt', 'a') as file:
+  print("DummyClassifier(most frequent):", file = file)
+  print(report1, file = file)
+
+report2 = classification_report(y2, y_pred2)
+with open('output.txt', 'a') as file:
+  print("DummyClassifier(random):", file = file)
+  print(report2, file = file)
+
+# .... 
 size_list = [5000, 25000, 50000, 100000]
 for train_size in size_list:
   # positive samples
@@ -310,113 +344,89 @@ for train_size in size_list:
         print("Dataset: ATOMIC (+) + ATOMIC (-) + ANION_Logical_Neg(+) + ANION_Logical_Neg(-) + ANION_Semi_Logical_Neg(+) + ANION_Semi_Logical_Neg(-), Size: ", train_size, file = file)
     
     print('Train data size: ', len(train_data))
+    td = Dataset.from_pandas(train_data)
+    if '__index_level_0__' in td.column_names:
+      td = td.remove_columns(['__index_level_0__'])
+    # Filter out rows where 'q' column has value 'nan'
+    filtered_dataset = td.filter(lambda example: example['q'] != 'nan')
+    # Filter out rows where 'q' attribute has value 'None'
+    filtered_dataset = filtered_dataset.filter(lambda example: example['q'] is not None)
 
+    train_dataset = Dataset.from_pandas(filtered_dataset.to_pandas())
+    train_dataset = train_dataset.map(concat_all_by_sep_train)
 
-'''
-  print('Train data size: ', len(train_data))
+    new_train_dataset = train_dataset.remove_columns(['p', 'q', 'r', 'output'])
+    new_train_dataset
+    new_train_dataset = new_train_dataset.shuffle(seed=42)
+
+    test_dataset_all = Dataset.from_pandas(test_data_all)
+    test_dataset_all = test_dataset_all.map(concat_all_by_sep_train)
+    test_dataset_all
+
+    new_test_dataset_2 = test_dataset_all
+    if '__index_level_0__' in test_dataset_all.column_names:
+      new_test_dataset_2 = test_dataset_all.remove_columns(['__index_level_0__'])
+    new_test_dataset_2
+
+    dts = Dataset.from_pandas(new_train_dataset.to_pandas()).train_test_split(test_size=0.10)
   
-  td = Dataset.from_pandas(train_data)
-  if '__index_level_0__' in td.column_names:
-    td = td.remove_columns(['__index_level_0__'])
-  # Filter out rows where 'q' column has value 'nan'
-  filtered_dataset = td.filter(lambda example: example['q'] != 'nan')
-  # Filter out rows where 'q' attribute has value 'None'
-  filtered_dataset = filtered_dataset.filter(lambda example: example['q'] is not None)
-
-  train_dataset = Dataset.from_pandas(filtered_dataset.to_pandas())
-  train_dataset = train_dataset.map(concat_all_by_sep_train)
-
-  new_train_dataset = train_dataset.remove_columns(['p', 'q', 'r', 'output'])
-  new_train_dataset
-  new_train_dataset = new_train_dataset.shuffle(seed=42)
-
-  test_dataset = Dataset.from_pandas(test_data)
-  test_dataset = test_dataset.map(concat_all_by_sep_train)
-  test_dataset
-
-  test_dataset_all = Dataset.from_pandas(test_data_all)
-  test_dataset_all = test_dataset_all.map(concat_all_by_sep_train)
-  test_dataset_all
-
-  new_test_dataset = test_dataset
-  if '__index_level_0__' in test_dataset.column_names:
-    new_test_dataset = test_dataset.remove_columns(['__index_level_0__'])
-  new_test_dataset
-
-  new_test_dataset_2 = test_dataset_all
-  if '__index_level_0__' in test_dataset_all.column_names:
-    new_test_dataset_2 = test_dataset_all.remove_columns(['__index_level_0__'])
-  new_test_dataset_2
-
-  dts = Dataset.from_pandas(new_train_dataset.to_pandas()).train_test_split(test_size=0.10)
-  #print(dts)
-
-  dataset = DatasetDict()
-
-  dataset['train'] = Dataset.from_pandas(dts["train"].to_pandas())
-  dataset['validation'] = Dataset.from_pandas(dts["test"].to_pandas())
-  #dataset['test'] =  Dataset.from_pandas(new_test_dataset.to_pandas())
-
-  if test_with_all == True:
+    dataset = DatasetDict()
+    dataset['train'] = Dataset.from_pandas(dts["train"].to_pandas())
+    dataset['validation'] = Dataset.from_pandas(dts["test"].to_pandas())
     dataset['test'] =  Dataset.from_pandas(new_test_dataset_2.to_pandas())
-  else:
-    dataset['test'] =  Dataset.from_pandas(new_test_dataset.to_pandas())
 
-  print(dataset)
+    print(dataset)
 
-  tokenized_datasets = dataset.map(tokenize_function, batched=True)
+    tokenized_datasets = dataset.map(tokenize_function, batched=True)
 
-  checkpoint = "roberta-base"
-  model = AutoModelForSequenceClassification.from_pretrained(checkpoint, num_labels=2)
+    checkpoint = "roberta-base"
+    checkpoint = "facebook/bart-large-cnn"
+    model = AutoModelForSequenceClassification.from_pretrained(checkpoint, num_labels=2)
 
-  small_train_dataset = tokenized_datasets["train"].shuffle(seed=42)
-  #small_eval_dataset = tokenized_datasets["validation"].shuffle(seed=42).select(range(500))
-  small_eval_dataset = tokenized_datasets["validation"].shuffle(seed=42)
-  #print(small_train_dataset)
-  #print(small_eval_dataset)
+    small_train_dataset = tokenized_datasets["train"].shuffle(seed=42)
+    small_eval_dataset = tokenized_datasets["validation"].shuffle(seed=42)
 
-  lr = 2e-5
+    lr = 2e-5
 
-  training_args = TrainingArguments(output_dir="test_trainer", evaluation_strategy="epoch", num_train_epochs=8,
-                                  per_gpu_train_batch_size=16,
-                                  seed = 123,
-                                  learning_rate=lr)
+    training_args = TrainingArguments(output_dir="test_trainer", evaluation_strategy="epoch", num_train_epochs=8,
+                                      per_gpu_train_batch_size=16,
+                                      seed = 123,
+                                      learning_rate=lr)
 
-  tr_args = getTrainingArguments(len(small_train_dataset))
+    tr_args = getTrainingArguments(len(small_train_dataset))
 
-  early_stop = EarlyStoppingCallback(3, 0.01)
+    early_stop = EarlyStoppingCallback(3, 0.01)
 
-  trainer = Trainer(
+    trainer = Trainer(
       model=model,
       args=tr_args,
-      #train_dataset=tokenized_datasets["train"],
-      train_dataset=small_train_dataset,
+      train_dataset=tokenized_datasets["train"],
+      #train_dataset=small_train_dataset,
       eval_dataset=tokenized_datasets["validation"],
       #eval_dataset=small_eval_dataset,
       compute_metrics=custom_metrics_all,
       callbacks=[early_stop])
 
-  trainer.train()
-  trainer.evaluate()
+    trainer.train()
+    trainer.evaluate()
 
-  t = tokenized_datasets["test"].remove_columns("text")
-  results = trainer.predict(t)
-  results
+    t = tokenized_datasets["test"].remove_columns("text")
+    results = trainer.predict(t)
+    results
 
-  preds = []
+    preds = []
 
-  for x in results[0]:
-    y = np.argmax(x)
-    preds.append(y)
-  set(preds)
-  actual = results[1].tolist()
+    for x in results[0]:
+      y = np.argmax(x)
+      preds.append(y)
+    set(preds)
+    actual = results[1].tolist()
 
-  with open('output.txt', 'a') as file:
-    print(classification_report(actual, preds), file = file)
-  #os.system("git add .")
-  #os.system("git commit -m message")
-  #os.system("git push")
-'''
+    with open('output.txt', 'a') as file:
+      print(classification_report(actual, preds), file = file)
+    #os.system("git add .")
+    #os.system("git commit -m message")
+    #os.system("git push")
 
 os.system("git add .")
 os.system("git commit -m message")
