@@ -1,7 +1,8 @@
 import os 
 
 with open('demo.txt', 'w') as file:
-  print('demo output', file = file)
+  size = 10000
+  print('demo output size: ', size, file = file)
 
 os.system("git add .")
 os.system("git commit -m message")
