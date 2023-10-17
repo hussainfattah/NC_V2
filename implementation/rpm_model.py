@@ -79,6 +79,7 @@ def concat_all_by_sep_train(example):
 
 #tokenizer = RobertaTokenizer.from_pretrained("roberta-base")
 tokenizer = AutoTokenizer.from_pretrained("facebook/bart-large-cnn")
+tokenizer = AutoTokenizer.from_pretrained("facebook/bart-base")
 
 def tokenize_function(examples):
   return tokenizer(examples["text"], padding="max_length", truncation=True)
@@ -384,6 +385,7 @@ for train_size in size_list:
 
     checkpoint = "roberta-base"
     checkpoint = "facebook/bart-large-cnn"
+    checkpoint = "facebook/bart-base"
     model = AutoModelForSequenceClassification.from_pretrained(checkpoint, num_labels=2)
 
     small_train_dataset = tokenized_datasets["train"].shuffle(seed=42)
@@ -427,6 +429,7 @@ for train_size in size_list:
 
     with open('output.txt', 'a') as file:
       print(classification_report(actual, preds), file = file)
+    
     #os.system("git add .")
     #os.system("git commit -m message")
     #os.system("git push")
