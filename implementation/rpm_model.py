@@ -2,25 +2,10 @@
 #pip install transformers
 #pip install scikit-learn
 #pip install scipy
+#pip install torch
 
 #pip install -U negate
 #from negate import Negator
-
-'''
-# Use default model (en_core_web_md):
-negator = Negator()
-
-# Or use a Transformer model (en_core_web_trf):
-negator = Negator(use_transformers=True)
-
-sentence = "An apple a day, keeps the doctor away."
-sentence = "PersonX holds PersonY's attention"
-sentence = "gets fresh air"
-sentence = "PersonX puts this ___ into practice"
-#sentence = "fun"
-#negated_sentence = negator.negate_sentence(sentence)
-#print(negated_sentence)  # "An apple a day, doesn't keep the doctor away."
-'''
 
 from datasets import Dataset, DatasetDict
 import pandas as pd
@@ -44,7 +29,6 @@ import torch
 torch.cuda.empty_cache()
 
 root="../data"
-#link1 = root+'/atomic_train_data/1_all_training_data(pos,neg,annotated).csv'
 link2 = root+'/2_test_data.csv'
 link_test_all = root+'/2_test_data_1488.csv'
 link3 = root+'/1_annotated_data.csv'
