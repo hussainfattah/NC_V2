@@ -82,7 +82,7 @@ tokenizer = AutoTokenizer.from_pretrained("facebook/bart-large-cnn")
 
 def tokenize_function(examples):
   #return tokenizer(examples["text"], padding="max_length", truncation=True)
-  return tokenizer(examples["text"], padding=True, truncation=True, return_tensors="pt")
+  return tokenizer(examples["text"], padding=True, truncation=True, max_length=32, return_tensors="pt")
 
 metric = load_metric("accuracy")
 
