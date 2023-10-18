@@ -18,11 +18,530 @@ weighted avg       0.59      0.77      0.67      1488
 DummyClassifier(random):
               precision    recall  f1-score   support
 
-           0       0.25      0.53      0.34       345
-           1       0.78      0.50      0.61      1143
+           0       0.24      0.54      0.33       345
+           1       0.78      0.48      0.59      1143
 
-    accuracy                           0.51      1488
-   macro avg       0.51      0.52      0.47      1488
-weighted avg       0.66      0.51      0.55      1488
+    accuracy                           0.49      1488
+   macro avg       0.51      0.51      0.46      1488
+weighted avg       0.65      0.49      0.53      1488
 
 Dataset: ATOMIC(+), Size:  5000
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00       345
+           1       0.77      1.00      0.87      1143
+
+    accuracy                           0.77      1488
+   macro avg       0.38      0.50      0.43      1488
+weighted avg       0.59      0.77      0.67      1488
+
+Dataset: ANION_Semi_Logical_Neg(+), Size:  5000
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00       345
+           1       0.77      1.00      0.87      1143
+
+    accuracy                           0.77      1488
+   macro avg       0.38      0.50      0.43      1488
+weighted avg       0.59      0.77      0.67      1488
+
+Dataset: anion_semi_logical_neg(+), Size:  5000
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00       345
+           1       0.77      1.00      0.87      1143
+
+    accuracy                           0.77      1488
+   macro avg       0.38      0.50      0.43      1488
+weighted avg       0.59      0.77      0.67      1488
+
+Dataset: ANION_Logical_Neg(+) + ANION_Semi_Logical_Neg(+), Size:  5000
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00       345
+           1       0.77      1.00      0.87      1143
+
+    accuracy                           0.77      1488
+   macro avg       0.38      0.50      0.43      1488
+weighted avg       0.59      0.77      0.67      1488
+
+Dataset: ATOMIC(-), Size:  5000
+              precision    recall  f1-score   support
+
+           0       0.23      1.00      0.38       345
+           1       0.00      0.00      0.00      1143
+
+    accuracy                           0.23      1488
+   macro avg       0.12      0.50      0.19      1488
+weighted avg       0.05      0.23      0.09      1488
+
+Dataset: ANION_Logical_Neg(-), Size:  5000
+              precision    recall  f1-score   support
+
+           0       0.23      1.00      0.38       345
+           1       0.00      0.00      0.00      1143
+
+    accuracy                           0.23      1488
+   macro avg       0.12      0.50      0.19      1488
+weighted avg       0.05      0.23      0.09      1488
+
+Dataset: ANION_Semi_Logical_Neg(-), Size:  5000
+              precision    recall  f1-score   support
+
+           0       0.23      1.00      0.38       345
+           1       0.00      0.00      0.00      1143
+
+    accuracy                           0.23      1488
+   macro avg       0.12      0.50      0.19      1488
+weighted avg       0.05      0.23      0.09      1488
+
+Dataset: ANION_Logical_Neg(-) + ANION_Semi_Logical_Neg(-), Size:  5000
+              precision    recall  f1-score   support
+
+           0       0.23      1.00      0.38       345
+           1       0.00      0.00      0.00      1143
+
+    accuracy                           0.23      1488
+   macro avg       0.12      0.50      0.19      1488
+weighted avg       0.05      0.23      0.09      1488
+
+Dataset: ATOMIC(+) + ATOMIC(-), Size:  5000
+              precision    recall  f1-score   support
+
+           0       0.35      0.92      0.51       345
+           1       0.95      0.48      0.64      1143
+
+    accuracy                           0.58      1488
+   macro avg       0.65      0.70      0.57      1488
+weighted avg       0.81      0.58      0.61      1488
+
+Dataset: ANION_Logical_Neg(+) + ANION_Logical_Neg(-), Size:  5000
+              precision    recall  f1-score   support
+
+           0       0.29      0.94      0.45       345
+           1       0.95      0.32      0.48      1143
+
+    accuracy                           0.46      1488
+   macro avg       0.62      0.63      0.46      1488
+weighted avg       0.80      0.46      0.47      1488
+
+Dataset: ANION_Semi_Logical_Neg(+) + ANION_Semi_Logical_Neg(-), Size:  5000
+              precision    recall  f1-score   support
+
+           0       0.34      0.78      0.48       345
+           1       0.89      0.55      0.68      1143
+
+    accuracy                           0.60      1488
+   macro avg       0.62      0.66      0.58      1488
+weighted avg       0.76      0.60      0.63      1488
+
+Dataset: ANION_Logical_Neg(+) + ANION_Logical_Neg(-) + ANION_Semi_Logical_Neg(+) + ANION_Semi_Logical_Neg(-), Size:  5000
+              precision    recall  f1-score   support
+
+           0       0.35      0.78      0.48       345
+           1       0.90      0.56      0.69      1143
+
+    accuracy                           0.61      1488
+   macro avg       0.62      0.67      0.59      1488
+weighted avg       0.77      0.61      0.64      1488
+
+Dataset: ATOMIC (+) + ATOMIC (-) + ANION_Logical_Neg(+) + ANION_Logical_Neg(-) + ANION_Semi_Logical_Neg(+) + ANION_Semi_Logical_Neg(-), Size:  5000
+              precision    recall  f1-score   support
+
+           0       0.36      0.82      0.50       345
+           1       0.91      0.56      0.70      1143
+
+    accuracy                           0.62      1488
+   macro avg       0.64      0.69      0.60      1488
+weighted avg       0.79      0.62      0.65      1488
+
+Dataset: ATOMIC(+), Size:  25000
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00       345
+           1       0.77      1.00      0.87      1143
+
+    accuracy                           0.77      1488
+   macro avg       0.38      0.50      0.43      1488
+weighted avg       0.59      0.77      0.67      1488
+
+Dataset: ANION_Semi_Logical_Neg(+), Size:  25000
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00       345
+           1       0.77      1.00      0.87      1143
+
+    accuracy                           0.77      1488
+   macro avg       0.38      0.50      0.43      1488
+weighted avg       0.59      0.77      0.67      1488
+
+Dataset: anion_semi_logical_neg(+), Size:  25000
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00       345
+           1       0.77      1.00      0.87      1143
+
+    accuracy                           0.77      1488
+   macro avg       0.38      0.50      0.43      1488
+weighted avg       0.59      0.77      0.67      1488
+
+Dataset: ANION_Logical_Neg(+) + ANION_Semi_Logical_Neg(+), Size:  25000
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00       345
+           1       0.77      1.00      0.87      1143
+
+    accuracy                           0.77      1488
+   macro avg       0.38      0.50      0.43      1488
+weighted avg       0.59      0.77      0.67      1488
+
+Dataset: ATOMIC(-), Size:  25000
+              precision    recall  f1-score   support
+
+           0       0.23      1.00      0.38       345
+           1       0.00      0.00      0.00      1143
+
+    accuracy                           0.23      1488
+   macro avg       0.12      0.50      0.19      1488
+weighted avg       0.05      0.23      0.09      1488
+
+Dataset: ANION_Logical_Neg(-), Size:  25000
+              precision    recall  f1-score   support
+
+           0       0.23      1.00      0.38       345
+           1       0.00      0.00      0.00      1143
+
+    accuracy                           0.23      1488
+   macro avg       0.12      0.50      0.19      1488
+weighted avg       0.05      0.23      0.09      1488
+
+Dataset: ANION_Semi_Logical_Neg(-), Size:  25000
+              precision    recall  f1-score   support
+
+           0       0.23      1.00      0.38       345
+           1       0.00      0.00      0.00      1143
+
+    accuracy                           0.23      1488
+   macro avg       0.12      0.50      0.19      1488
+weighted avg       0.05      0.23      0.09      1488
+
+Dataset: ANION_Logical_Neg(-) + ANION_Semi_Logical_Neg(-), Size:  25000
+              precision    recall  f1-score   support
+
+           0       0.23      1.00      0.38       345
+           1       0.00      0.00      0.00      1143
+
+    accuracy                           0.23      1488
+   macro avg       0.12      0.50      0.19      1488
+weighted avg       0.05      0.23      0.09      1488
+
+Dataset: ATOMIC(+) + ATOMIC(-), Size:  25000
+              precision    recall  f1-score   support
+
+           0       0.36      0.88      0.51       345
+           1       0.93      0.53      0.67      1143
+
+    accuracy                           0.61      1488
+   macro avg       0.65      0.70      0.59      1488
+weighted avg       0.80      0.61      0.64      1488
+
+Dataset: ANION_Logical_Neg(+) + ANION_Logical_Neg(-), Size:  25000
+              precision    recall  f1-score   support
+
+           0       0.29      0.96      0.45       345
+           1       0.96      0.30      0.46      1143
+
+    accuracy                           0.45      1488
+   macro avg       0.62      0.63      0.45      1488
+weighted avg       0.80      0.45      0.45      1488
+
+Dataset: ANION_Semi_Logical_Neg(+) + ANION_Semi_Logical_Neg(-), Size:  25000
+              precision    recall  f1-score   support
+
+           0       0.35      0.91      0.51       345
+           1       0.95      0.50      0.65      1143
+
+    accuracy                           0.59      1488
+   macro avg       0.65      0.70      0.58      1488
+weighted avg       0.81      0.59      0.62      1488
+
+Dataset: ANION_Logical_Neg(+) + ANION_Logical_Neg(-) + ANION_Semi_Logical_Neg(+) + ANION_Semi_Logical_Neg(-), Size:  25000
+              precision    recall  f1-score   support
+
+           0       0.36      0.81      0.50       345
+           1       0.91      0.56      0.69      1143
+
+    accuracy                           0.62      1488
+   macro avg       0.63      0.69      0.60      1488
+weighted avg       0.78      0.62      0.65      1488
+
+Dataset: ATOMIC (+) + ATOMIC (-) + ANION_Logical_Neg(+) + ANION_Logical_Neg(-) + ANION_Semi_Logical_Neg(+) + ANION_Semi_Logical_Neg(-), Size:  25000
+              precision    recall  f1-score   support
+
+           0       0.36      0.85      0.51       345
+           1       0.92      0.55      0.69      1143
+
+    accuracy                           0.62      1488
+   macro avg       0.64      0.70      0.60      1488
+weighted avg       0.79      0.62      0.65      1488
+
+Dataset: ATOMIC(+), Size:  50000
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00       345
+           1       0.77      1.00      0.87      1143
+
+    accuracy                           0.77      1488
+   macro avg       0.38      0.50      0.43      1488
+weighted avg       0.59      0.77      0.67      1488
+
+Dataset: ANION_Semi_Logical_Neg(+), Size:  50000
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00       345
+           1       0.77      1.00      0.87      1143
+
+    accuracy                           0.77      1488
+   macro avg       0.38      0.50      0.43      1488
+weighted avg       0.59      0.77      0.67      1488
+
+Dataset: anion_semi_logical_neg(+), Size:  50000
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00       345
+           1       0.77      1.00      0.87      1143
+
+    accuracy                           0.77      1488
+   macro avg       0.38      0.50      0.43      1488
+weighted avg       0.59      0.77      0.67      1488
+
+Dataset: ANION_Logical_Neg(+) + ANION_Semi_Logical_Neg(+), Size:  50000
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00       345
+           1       0.77      1.00      0.87      1143
+
+    accuracy                           0.77      1488
+   macro avg       0.38      0.50      0.43      1488
+weighted avg       0.59      0.77      0.67      1488
+
+Dataset: ATOMIC(-), Size:  50000
+              precision    recall  f1-score   support
+
+           0       0.23      1.00      0.38       345
+           1       0.00      0.00      0.00      1143
+
+    accuracy                           0.23      1488
+   macro avg       0.12      0.50      0.19      1488
+weighted avg       0.05      0.23      0.09      1488
+
+Dataset: ANION_Logical_Neg(-), Size:  50000
+              precision    recall  f1-score   support
+
+           0       0.23      1.00      0.38       345
+           1       0.00      0.00      0.00      1143
+
+    accuracy                           0.23      1488
+   macro avg       0.12      0.50      0.19      1488
+weighted avg       0.05      0.23      0.09      1488
+
+Dataset: ANION_Semi_Logical_Neg(-), Size:  50000
+              precision    recall  f1-score   support
+
+           0       0.23      1.00      0.38       345
+           1       0.00      0.00      0.00      1143
+
+    accuracy                           0.23      1488
+   macro avg       0.12      0.50      0.19      1488
+weighted avg       0.05      0.23      0.09      1488
+
+Dataset: ANION_Logical_Neg(-) + ANION_Semi_Logical_Neg(-), Size:  50000
+              precision    recall  f1-score   support
+
+           0       0.23      1.00      0.38       345
+           1       0.00      0.00      0.00      1143
+
+    accuracy                           0.23      1488
+   macro avg       0.12      0.50      0.19      1488
+weighted avg       0.05      0.23      0.09      1488
+
+Dataset: ATOMIC(+) + ATOMIC(-), Size:  50000
+              precision    recall  f1-score   support
+
+           0       0.35      0.92      0.51       345
+           1       0.95      0.49      0.65      1143
+
+    accuracy                           0.59      1488
+   macro avg       0.65      0.70      0.58      1488
+weighted avg       0.81      0.59      0.61      1488
+
+Dataset: ANION_Logical_Neg(+) + ANION_Logical_Neg(-), Size:  50000
+              precision    recall  f1-score   support
+
+           0       0.35      0.78      0.49       345
+           1       0.90      0.57      0.70      1143
+
+    accuracy                           0.62      1488
+   macro avg       0.62      0.68      0.59      1488
+weighted avg       0.77      0.62      0.65      1488
+
+Dataset: ANION_Semi_Logical_Neg(+) + ANION_Semi_Logical_Neg(-), Size:  50000
+              precision    recall  f1-score   support
+
+           0       0.35      0.88      0.50       345
+           1       0.94      0.50      0.65      1143
+
+    accuracy                           0.59      1488
+   macro avg       0.64      0.69      0.58      1488
+weighted avg       0.80      0.59      0.62      1488
+
+Dataset: ANION_Logical_Neg(+) + ANION_Logical_Neg(-) + ANION_Semi_Logical_Neg(+) + ANION_Semi_Logical_Neg(-), Size:  50000
+              precision    recall  f1-score   support
+
+           0       0.36      0.89      0.51       345
+           1       0.94      0.52      0.67      1143
+
+    accuracy                           0.60      1488
+   macro avg       0.65      0.70      0.59      1488
+weighted avg       0.80      0.60      0.63      1488
+
+Dataset: ATOMIC (+) + ATOMIC (-) + ANION_Logical_Neg(+) + ANION_Logical_Neg(-) + ANION_Semi_Logical_Neg(+) + ANION_Semi_Logical_Neg(-), Size:  50000
+              precision    recall  f1-score   support
+
+           0       0.35      0.87      0.50       345
+           1       0.93      0.52      0.66      1143
+
+    accuracy                           0.60      1488
+   macro avg       0.64      0.69      0.58      1488
+weighted avg       0.80      0.60      0.63      1488
+
+Dataset: ATOMIC(+), Size:  100000
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00       345
+           1       0.77      1.00      0.87      1143
+
+    accuracy                           0.77      1488
+   macro avg       0.38      0.50      0.43      1488
+weighted avg       0.59      0.77      0.67      1488
+
+Dataset: ANION_Semi_Logical_Neg(+), Size:  100000
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00       345
+           1       0.77      1.00      0.87      1143
+
+    accuracy                           0.77      1488
+   macro avg       0.38      0.50      0.43      1488
+weighted avg       0.59      0.77      0.67      1488
+
+Dataset: anion_semi_logical_neg(+), Size:  100000
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00       345
+           1       0.77      1.00      0.87      1143
+
+    accuracy                           0.77      1488
+   macro avg       0.38      0.50      0.43      1488
+weighted avg       0.59      0.77      0.67      1488
+
+Dataset: ANION_Logical_Neg(+) + ANION_Semi_Logical_Neg(+), Size:  100000
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00       345
+           1       0.77      1.00      0.87      1143
+
+    accuracy                           0.77      1488
+   macro avg       0.38      0.50      0.43      1488
+weighted avg       0.59      0.77      0.67      1488
+
+Dataset: ATOMIC(-), Size:  100000
+              precision    recall  f1-score   support
+
+           0       0.23      1.00      0.38       345
+           1       0.00      0.00      0.00      1143
+
+    accuracy                           0.23      1488
+   macro avg       0.12      0.50      0.19      1488
+weighted avg       0.05      0.23      0.09      1488
+
+Dataset: ANION_Logical_Neg(-), Size:  100000
+              precision    recall  f1-score   support
+
+           0       0.23      1.00      0.38       345
+           1       0.00      0.00      0.00      1143
+
+    accuracy                           0.23      1488
+   macro avg       0.12      0.50      0.19      1488
+weighted avg       0.05      0.23      0.09      1488
+
+Dataset: ANION_Semi_Logical_Neg(-), Size:  100000
+              precision    recall  f1-score   support
+
+           0       0.23      1.00      0.38       345
+           1       0.00      0.00      0.00      1143
+
+    accuracy                           0.23      1488
+   macro avg       0.12      0.50      0.19      1488
+weighted avg       0.05      0.23      0.09      1488
+
+Dataset: ANION_Logical_Neg(-) + ANION_Semi_Logical_Neg(-), Size:  100000
+              precision    recall  f1-score   support
+
+           0       0.23      1.00      0.38       345
+           1       0.00      0.00      0.00      1143
+
+    accuracy                           0.23      1488
+   macro avg       0.12      0.50      0.19      1488
+weighted avg       0.05      0.23      0.09      1488
+
+Dataset: ATOMIC(+) + ATOMIC(-), Size:  100000
+              precision    recall  f1-score   support
+
+           0       0.33      0.94      0.49       345
+           1       0.96      0.43      0.60      1143
+
+    accuracy                           0.55      1488
+   macro avg       0.65      0.69      0.55      1488
+weighted avg       0.82      0.55      0.57      1488
+
+Dataset: ANION_Logical_Neg(+) + ANION_Logical_Neg(-), Size:  100000
+              precision    recall  f1-score   support
+
+           0       0.26      0.94      0.40       345
+           1       0.91      0.19      0.31      1143
+
+    accuracy                           0.36      1488
+   macro avg       0.58      0.56      0.36      1488
+weighted avg       0.76      0.36      0.33      1488
+
+Dataset: ANION_Semi_Logical_Neg(+) + ANION_Semi_Logical_Neg(-), Size:  100000
+              precision    recall  f1-score   support
+
+           0       0.35      0.88      0.50       345
+           1       0.93      0.50      0.65      1143
+
+    accuracy                           0.59      1488
+   macro avg       0.64      0.69      0.58      1488
+weighted avg       0.80      0.59      0.62      1488
+
+Dataset: ANION_Logical_Neg(+) + ANION_Logical_Neg(-) + ANION_Semi_Logical_Neg(+) + ANION_Semi_Logical_Neg(-), Size:  100000
+              precision    recall  f1-score   support
+
+           0       0.36      0.84      0.51       345
+           1       0.92      0.55      0.69      1143
+
+    accuracy                           0.62      1488
+   macro avg       0.64      0.70      0.60      1488
+weighted avg       0.79      0.62      0.65      1488
+
+Dataset: ATOMIC (+) + ATOMIC (-) + ANION_Logical_Neg(+) + ANION_Logical_Neg(-) + ANION_Semi_Logical_Neg(+) + ANION_Semi_Logical_Neg(-), Size:  100000
+              precision    recall  f1-score   support
+
+           0       0.36      0.86      0.51       345
+           1       0.93      0.53      0.68      1143
+
+    accuracy                           0.61      1488
+   macro avg       0.64      0.70      0.59      1488
+weighted avg       0.80      0.61      0.64      1488
+
