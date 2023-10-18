@@ -78,7 +78,7 @@ def concat_all_by_sep_train(example):
   return {'label': output, 'text': final_str}
 
 #tokenizer = RobertaTokenizer.from_pretrained("roberta-base")
-tokenizer = AutoTokenizer.from_pretrained("facebook/bart-large-cnn")
+#tokenizer = AutoTokenizer.from_pretrained("facebook/bart-large-cnn")
 tokenizer = AutoTokenizer.from_pretrained("facebook/bart-base")
 
 def tokenize_function(examples):
