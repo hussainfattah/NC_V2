@@ -106,8 +106,8 @@ def concat_all_by_sep_train_2(example):
 
   return {'label': output, 'text': prompt}
 
-#tokenizer = RobertaTokenizer.from_pretrained("roberta-base")
-tokenizer = RobertaTokenizer.from_pretrained("roberta-large")
+tokenizer = RobertaTokenizer.from_pretrained("roberta-base")
+#tokenizer = RobertaTokenizer.from_pretrained("roberta-large")
 #tokenizer = AutoTokenizer.from_pretrained("facebook/bart-large-cnn")
 #tokenizer = AutoTokenizer.from_pretrained("facebook/bart-base")
 
@@ -422,7 +422,7 @@ for train_size in size_list:
     tokenized_datasets = dataset.map(tokenize_function, batched=True)
 
     checkpoint = "roberta-base"
-    checkpoint = "roberta-large"
+    #checkpoint = "roberta-large"
     #checkpoint = "facebook/bart-large-cnn"
     #checkpoint = "facebook/bart-base"
     model = AutoModelForSequenceClassification.from_pretrained(checkpoint, num_labels=2)
