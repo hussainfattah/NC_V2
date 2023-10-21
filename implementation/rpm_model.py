@@ -77,7 +77,37 @@ def concat_all_by_sep_train(example):
 
   return {'label': output, 'text': final_str}
 
-tokenizer = RobertaTokenizer.from_pretrained("roberta-base")
+def concat_all_by_sep_train_2(example):
+  output = int(example['output'])
+  r = example['r']
+  p = example['p']
+  q = example['q']
+
+  if r == 'oEffect':
+    prompt = p + '. As a result, others then ' + q + '.'
+  elif r == 'oReact':
+    prompt = p + '. As a result, others feel ' + q + '.'
+  elif r == 'oWant':
+    prompt = p + '. As a result, others want ' + q + '.'
+  elif r == 'xAttr':
+    prompt = p + '. PersonX is seen as ' + q + '.'
+  elif r == 'xEffect':
+    prompt = p + '. As a result, PersonX then ' + q + '.'
+  elif r == 'xIntent':
+    prompt = p + '. Because PersonX wanted ' + q + '.'
+  elif r == 'xNeed':
+    prompt = p + '. Before, PersonX needed ' + q + '.'
+  elif r == 'xReact':
+    prompt = p + '. As a result, PersonX feels ' + q + '.'
+  elif r == 'xWant':
+    prompt = p + '. As a result, PersonX wants ' + q + '.'
+  else:
+    prompt = ''
+
+  return {'label': output, 'text': prompt}
+
+#tokenizer = RobertaTokenizer.from_pretrained("roberta-base")
+tokenizer = RobertaTokenizer.from_pretrained("roberta-large")
 #tokenizer = AutoTokenizer.from_pretrained("facebook/bart-large-cnn")
 #tokenizer = AutoTokenizer.from_pretrained("facebook/bart-base")
 
@@ -191,6 +221,7 @@ for train_size in size_list:
 
   for i in range(13):
     if i == 0:
+      continue
       # process ATOMIC(+)
       atomic_data = atomic_data.sample(frac=1, random_state=42)  # Shuffle + Set a random_state for reproducibility
       atomic_data = atomic_data.head(train_size) 
@@ -200,7 +231,8 @@ for train_size in size_list:
       with open('output.txt', 'a') as file:
         print("Dataset: ATOMIC(+), Size: ", train_size, file = file)
     elif i == 1:
-      # process ANION_Semi_Logical_Neg(+)
+      continue
+      # process ANION_Logical_Neg(+)
       anion_logical_neg_data_label_1 = anion_logical_neg_data_label_1.sample(frac=1, random_state=42)  # Shuffle + Set a random_state for reproducibility
       anion_logical_neg_data_label_1 = anion_logical_neg_data_label_1.head(train_size) 
       
@@ -209,6 +241,7 @@ for train_size in size_list:
       with open('output.txt', 'a') as file:
         print("Dataset: ANION_Semi_Logical_Neg(+), Size: ", train_size, file = file)
     elif i == 2:
+      continue
       # process ANION_Semi_Logical_Neg(+)
       anion_semi_logical_neg_data_label_1 = anion_semi_logical_neg_data_label_1.sample(frac=1, random_state=42)  # Shuffle + Set a random_state for reproducibility
       anion_semi_logical_neg_data_label_1 = anion_semi_logical_neg_data_label_1.head(train_size) # For now, train with only 5000
@@ -218,6 +251,7 @@ for train_size in size_list:
       with open('output.txt', 'a') as file:
         print("Dataset: anion_semi_logical_neg(+), Size: ", train_size, file = file)
     elif i == 3:
+      continue
       # process ANION_Logical_Neg(+) + ANION_Semi_Logical_Neg(+)
       anion_logical_neg_data_label_1 = anion_logical_neg_data_label_1.sample(frac=1, random_state=42)  # Shuffle + Set a random_state for reproducibility
       anion_logical_neg_data_label_1 = anion_logical_neg_data_label_1.head(train_size) # For now, train with only 5000
@@ -230,6 +264,7 @@ for train_size in size_list:
       with open('output.txt', 'a') as file:
         print("Dataset: ANION_Logical_Neg(+) + ANION_Semi_Logical_Neg(+), Size: ", train_size, file = file)
     elif i == 4:
+      continue
       # process ATOMIC(-)
       atomic_data_minus = atomic_data_minus.sample(frac=1, random_state=42)
       atomic_data_minus = atomic_data_minus.head(train_size)
@@ -238,6 +273,7 @@ for train_size in size_list:
       with open('output.txt', 'a') as file:
         print("Dataset: ATOMIC(-), Size: ", train_size, file = file)
     elif i == 5:
+      continue
       # logical neg (-)
       anion_logical_neg_data_minus = anion_logical_neg_data_minus.sample(frac=1, random_state=42)
       anion_logical_neg_data_minus = anion_logical_neg_data_minus.head(train_size)
@@ -246,6 +282,7 @@ for train_size in size_list:
       with open('output.txt', 'a') as file:
         print("Dataset: ANION_Logical_Neg(-), Size: ", train_size, file = file)
     elif i == 6:
+      continue
       # semi logical neg (-)
       anion_semi_logical_neg_data_minus = anion_semi_logical_neg_data_minus.sample(frac=1, random_state=42)
       anion_semi_logical_neg_data_minus = anion_semi_logical_neg_data_minus.head(train_size)
@@ -255,6 +292,7 @@ for train_size in size_list:
       with open('output.txt', 'a') as file:
         print("Dataset: ANION_Semi_Logical_Neg(-), Size: ", train_size, file = file)
     elif i == 7:
+      continue
       # process ANION_Logical_Neg(-) + ANION_Semi_Logical_Neg(-)
       anion_logical_neg_data_minus = anion_logical_neg_data_minus.sample(frac=1, random_state=42)
       anion_logical_neg_data_minus = anion_logical_neg_data_minus.head(train_size)
@@ -357,14 +395,14 @@ for train_size in size_list:
     filtered_dataset = filtered_dataset.filter(lambda example: example['q'] is not None)
 
     train_dataset = Dataset.from_pandas(filtered_dataset.to_pandas())
-    train_dataset = train_dataset.map(concat_all_by_sep_train)
+    train_dataset = train_dataset.map(concat_all_by_sep_train_2)
 
     new_train_dataset = train_dataset.remove_columns(['p', 'q', 'r', 'output'])
     new_train_dataset
     new_train_dataset = new_train_dataset.shuffle(seed=42)
 
     test_dataset_all = Dataset.from_pandas(test_data_all)
-    test_dataset_all = test_dataset_all.map(concat_all_by_sep_train)
+    test_dataset_all = test_dataset_all.map(concat_all_by_sep_train_2)
     test_dataset_all
 
     new_test_dataset_2 = test_dataset_all
@@ -384,6 +422,7 @@ for train_size in size_list:
     tokenized_datasets = dataset.map(tokenize_function, batched=True)
 
     checkpoint = "roberta-base"
+    checkpoint = "roberta-large"
     #checkpoint = "facebook/bart-large-cnn"
     #checkpoint = "facebook/bart-base"
     model = AutoModelForSequenceClassification.from_pretrained(checkpoint, num_labels=2)
