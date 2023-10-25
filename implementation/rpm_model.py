@@ -107,7 +107,8 @@ def concat_all_by_sep_train_2(example):
   return {'label': output, 'text': prompt}
 
 #tokenizer = RobertaTokenizer.from_pretrained("roberta-base")
-tokenizer = RobertaTokenizer.from_pretrained("roberta-large")
+#tokenizer = RobertaTokenizer.from_pretrained("roberta-large")
+tokenizer = AutoTokenizer.from_pretrained("facebook/bart-large")
 #tokenizer = AutoTokenizer.from_pretrained("facebook/bart-large-cnn")
 #tokenizer = AutoTokenizer.from_pretrained("facebook/bart-base")
 
@@ -141,7 +142,7 @@ def custom_metrics_all(eval_pred):
 
 lr = 2e-5
 
-def getTrainingArguments(size):
+def getTrainingArguments(size, lr_2):
   epochs = 0
   step = 0
   if size < 5100:
@@ -149,7 +150,7 @@ def getTrainingArguments(size):
     step = 50
   elif size < 10001:
     epochs = 2.5
-    step = 100
+    step = 50
   else:
     epochs = 2
     step = 100
@@ -157,7 +158,7 @@ def getTrainingArguments(size):
   t_args = TrainingArguments(
     output_dir='./results',          # output directory
     per_device_train_batch_size=16,  # batch size per device during training
-    per_device_eval_batch_size=20,   # batch size for evaluation
+    per_device_eval_batch_size=16,   # batch size for evaluation
     weight_decay=0.01,               # strength of weight decay
     logging_dir='./logs',            # directory for storing logs
     load_best_model_at_end=True,     # load the best model when finished training (default metric is loss)
@@ -168,7 +169,9 @@ def getTrainingArguments(size):
     logging_steps=step,               # log & save weights each logging_steps
     save_steps=step,
 
-    learning_rate=lr,
+    per_gpu_train_batch_size=16,
+
+    learning_rate=lr_2,
     seed=42,
     evaluation_strategy="steps",     # evaluate each `logging_steps`
   )
@@ -424,8 +427,8 @@ for train_size in size_list:
     tokenized_datasets = dataset.map(tokenize_function, batched=True)
 
     #checkpoint = "roberta-base"
-    checkpoint = "roberta-large"
-    #checkpoint = "facebook/bart-large-cnn"
+    #checkpoint = "roberta-large"
+    checkpoint = "facebook/bart-large"
     #checkpoint = "facebook/bart-base"
     model = AutoModelForSequenceClassification.from_pretrained(checkpoint, num_labels=2)
 
@@ -435,12 +438,7 @@ for train_size in size_list:
     lr = 2e-5
     lr_list = [1e-6, 5e-6, 1e-5, 5e-5, 1e-4]
     for each_lr in lr_list:
-      training_args = TrainingArguments(output_dir="test_trainer", evaluation_strategy="epoch", num_train_epochs=8,
-                                      per_gpu_train_batch_size=16,
-                                      seed = 123,
-                                      learning_rate=each_lr)
-
-      tr_args = getTrainingArguments(len(small_train_dataset))
+      tr_args = getTrainingArguments(len(small_train_dataset), each_lr)
 
       early_stop = EarlyStoppingCallback(3, 0.01)
 
