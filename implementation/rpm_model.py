@@ -106,9 +106,9 @@ def concat_all_by_sep_train_2(example):
 
   return {'label': output, 'text': prompt}
 
-tokenizer = RobertaTokenizer.from_pretrained("roberta-base")
+#tokenizer = RobertaTokenizer.from_pretrained("roberta-base")
 #tokenizer = RobertaTokenizer.from_pretrained("roberta-large")
-#tokenizer = AutoTokenizer.from_pretrained("facebook/bart-large-cnn")
+tokenizer = AutoTokenizer.from_pretrained("facebook/bart-large-cnn")
 #tokenizer = AutoTokenizer.from_pretrained("facebook/bart-base")
 
 def tokenize_function(examples):
@@ -147,7 +147,7 @@ def getTrainingArguments(size):
   if size < 5100:
     epochs = 8
     step = 50
-  elif size < 10000:
+  elif size < 10001:
     epochs = 2.5
     step = 100
   else:
@@ -207,7 +207,7 @@ with open('output.txt', 'a') as file:
   print(report2, file = file)
 
 # .... 
-size_list = [5000, 25000, 50000, 100000]
+size_list = [5000, 25000, 50000]
 for train_size in size_list:
   # positive samples
   atomic_data = pd.read_csv(link4)
@@ -317,6 +317,7 @@ for train_size in size_list:
       with open('output.txt', 'a') as file:
         print("Dataset: ATOMIC(+) + ATOMIC(-), Size: ", train_size, file = file)
     elif i == 9:
+      continue
       # process ANION_Logical_Neg(+) + ANION_Logical_Neg(-)
       anion_logical_neg_data_label_1 = anion_logical_neg_data_label_1.sample(frac=1, random_state=42)  # Shuffle + Set a random_state for reproducibility
       anion_logical_neg_data_label_1 = anion_logical_neg_data_label_1.head(train_size) # For now, train with only 5000
@@ -329,6 +330,7 @@ for train_size in size_list:
       with open('output.txt', 'a') as file:
         print("Dataset: ANION_Logical_Neg(+) + ANION_Logical_Neg(-), Size: ", train_size, file = file)
     elif i == 10:
+      continue
       # process ANION_Semi_Logical_Neg(+) + ANION_Semi_Logical_Neg(-)
       anion_semi_logical_neg_data_label_1 = anion_semi_logical_neg_data_label_1.sample(frac=1, random_state=42)  # Shuffle + Set a random_state for reproducibility
       anion_semi_logical_neg_data_label_1 = anion_semi_logical_neg_data_label_1.head(train_size) # For now, train with only 5000
@@ -421,9 +423,9 @@ for train_size in size_list:
 
     tokenized_datasets = dataset.map(tokenize_function, batched=True)
 
-    checkpoint = "roberta-base"
+    #checkpoint = "roberta-base"
     #checkpoint = "roberta-large"
-    #checkpoint = "facebook/bart-large-cnn"
+    checkpoint = "facebook/bart-large-cnn"
     #checkpoint = "facebook/bart-base"
     model = AutoModelForSequenceClassification.from_pretrained(checkpoint, num_labels=2)
 
@@ -431,7 +433,46 @@ for train_size in size_list:
     small_eval_dataset = tokenized_datasets["validation"].shuffle(seed=42)
 
     lr = 2e-5
+    lr_list = [1e-6, 5e-6, 1e-5, 5e-5, 1e-4]
+    for each_lr in lr_list:
+      training_args = TrainingArguments(output_dir="test_trainer", evaluation_strategy="epoch", num_train_epochs=8,
+                                      per_gpu_train_batch_size=16,
+                                      seed = 123,
+                                      learning_rate=each_lr)
 
+      tr_args = getTrainingArguments(len(small_train_dataset))
+
+      early_stop = EarlyStoppingCallback(3, 0.01)
+
+      trainer = Trainer(
+        model=model,
+        args=tr_args,
+        train_dataset=tokenized_datasets["train"],
+        #train_dataset=small_train_dataset,
+        eval_dataset=tokenized_datasets["validation"],
+        #eval_dataset=small_eval_dataset,
+        compute_metrics=custom_metrics_all,
+        callbacks=[early_stop])
+
+      trainer.train()
+      trainer.evaluate()
+
+      t = tokenized_datasets["test"].remove_columns("text")
+      results = trainer.predict(t)
+      results
+
+      preds = []
+
+      for x in results[0]:
+        y = np.argmax(x)
+        preds.append(y)
+      set(preds)
+      actual = results[1].tolist()
+
+      with open('output.txt', 'a') as file:
+        print('lr: ', each_lr, file = file)
+        print(classification_report(actual, preds), file = file)
+    '''
     training_args = TrainingArguments(output_dir="test_trainer", evaluation_strategy="epoch", num_train_epochs=8,
                                       per_gpu_train_batch_size=16,
                                       seed = 123,
@@ -468,7 +509,7 @@ for train_size in size_list:
 
     with open('output.txt', 'a') as file:
       print(classification_report(actual, preds), file = file)
-    
+    '''
     #os.system("git add .")
     #os.system("git commit -m message")
     #os.system("git push")
