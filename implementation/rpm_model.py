@@ -107,8 +107,8 @@ def concat_all_by_sep_train_2(example):
   return {'label': output, 'text': prompt}
 
 #tokenizer = RobertaTokenizer.from_pretrained("roberta-base")
-tokenizer = RobertaTokenizer.from_pretrained("roberta-large")
-#tokenizer = AutoTokenizer.from_pretrained("facebook/bart-large")
+#tokenizer = RobertaTokenizer.from_pretrained("roberta-large")
+tokenizer = AutoTokenizer.from_pretrained("facebook/bart-large")
 #tokenizer = AutoTokenizer.from_pretrained("facebook/bart-large-cnn")
 #tokenizer = AutoTokenizer.from_pretrained("facebook/bart-base")
 
@@ -157,8 +157,8 @@ def getTrainingArguments(size, lr_2):
 
   t_args = TrainingArguments(
     output_dir='./results',          # output directory
-    per_device_train_batch_size=16,  # batch size per device during training
-    per_device_eval_batch_size=16,   # batch size for evaluation
+    per_device_train_batch_size=8,  # batch size per device during training
+    per_device_eval_batch_size=8,   # batch size for evaluation
     weight_decay=0.01,               # strength of weight decay
     logging_dir='./logs',            # directory for storing logs
     load_best_model_at_end=True,     # load the best model when finished training (default metric is loss)
@@ -169,7 +169,7 @@ def getTrainingArguments(size, lr_2):
     logging_steps=step,               # log & save weights each logging_steps
     save_steps=step,
 
-    per_gpu_train_batch_size=16,
+    #per_gpu_train_batch_size=16,
 
     learning_rate=lr_2,
     seed=42,
@@ -427,8 +427,8 @@ for train_size in size_list:
     tokenized_datasets = dataset.map(tokenize_function, batched=True)
 
     #checkpoint = "roberta-base"
-    checkpoint = "roberta-large"
-    #checkpoint = "facebook/bart-large"
+    #checkpoint = "roberta-large"
+    checkpoint = "facebook/bart-large"
     #checkpoint = "facebook/bart-base"
     model = AutoModelForSequenceClassification.from_pretrained(checkpoint, num_labels=2)
 
