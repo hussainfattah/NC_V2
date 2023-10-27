@@ -29,10 +29,9 @@ import os
 from sklearn.dummy import DummyClassifier
 from transformers import AutoTokenizer
 
-import os
-
+#import os
 # Set NCCL_DEBUG environment variable to "INFO"
-os.environ['NCCL_DEBUG'] = 'INFO'
+#os.environ['NCCL_DEBUG'] = 'INFO'
 
 import torch
 torch.cuda.empty_cache()
