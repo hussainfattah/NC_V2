@@ -161,8 +161,8 @@ def getTrainingArguments(size, lr_2):
 
   t_args = TrainingArguments(
     output_dir='./results',          # output directory
-    per_device_train_batch_size=4,  # batch size per device during training
-    per_device_eval_batch_size=4,   # batch size for evaluation
+    per_device_train_batch_size=16,  # batch size per device during training
+    per_device_eval_batch_size=16,   # batch size for evaluation
     weight_decay=0.01,               # strength of weight decay
     logging_dir='./logs',            # directory for storing logs
     load_best_model_at_end=True,     # load the best model when finished training (default metric is loss)
